@@ -77,9 +77,11 @@ for i in range(0,80):
     combined_summary = ' '.join(summary_sentences)
 
     # Set your OpenAI API key
-    client = OpenAI(
-        api_key=''
-    )
+    '''
+        client = OpenAI(
+            api_key=''
+        )
+        '''
 
 
     def summarize(combined_summary):
