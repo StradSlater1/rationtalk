@@ -69,9 +69,11 @@ for label, cluster_sentences in clusters.items():
 combined_summary = ' '.join(summary_sentences)
 
 # Set your OpenAI API key
+'''
 client = OpenAI(
     api_key=''
 )
+'''
 
 
 def summarize(combined_summary):
