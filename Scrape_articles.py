@@ -236,7 +236,7 @@ if __name__ == "__main__":
 
         # Set your OpenAI API key
         client = OpenAI(
-            api_key='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'
+            api_key=''
         )
 
 
