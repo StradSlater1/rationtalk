@@ -76,7 +76,8 @@ for i in range(0,80):
 
     combined_summary = ' '.join(summary_sentences)
 
-    # Set your OpenAI API key
+
+
 
 
 
