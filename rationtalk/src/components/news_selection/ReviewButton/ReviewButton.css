@@ -1,0 +1,30 @@
+/* src/components/ReviewButton.css */
+
+.review-button {
+  font-size: 1.25rem;
+  margin: 0 auto;
+  font-weight: 500;
+  background-color: #dfd0b3;
+  color: #484039;
+  border-radius: 5px;
+  border: 1px solid #b99a71; /* match the background color for a seamless look */
+  cursor: pointer;
+  font-family: 'Andada Pro', serif;
+  padding: 5px 13px 7px 13px; /* adjust padding for better button size */
+  letter-spacing: -0.4px;
+  display: flex;
+  justify-content: center;
+}
+
+.review-button:hover:not(:disabled) {
+  background-color: #b59b78;
+  color: #f8f9fd;
+  border-color: #b59b78;
+}
+
+.review-button:disabled {
+  background-color: #d5d5d5;
+  border-color: #bebebf;
+  color: #b2b2b2;
+  cursor: not-allowed;
+}

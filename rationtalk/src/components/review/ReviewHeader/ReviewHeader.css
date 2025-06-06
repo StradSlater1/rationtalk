@@ -1,0 +1,53 @@
+/* src/components/review/ReviewHeader.css */
+.review-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+  font-family: 'Andada Pro', serif;
+  
+}
+
+.app-title{
+  font-size: 1.5rem;        /* make the title big */
+  font-weight: 600;
+  margin: 0;
+  color: #b9976d
+}
+
+.back-button,
+.send-email
+{
+    color: #413f3c;
+    font-size: 1.25rem;
+    letter-spacing: -0.4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.back-button{
+    color: #413f3c;
+}
+
+.send-email{
+    color: #876d53;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo-icon {
+  color: #b89b6f;
+  font-size: 1.25rem;
+}
+
+.app-title {
+  font-family: serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.05em;
+}

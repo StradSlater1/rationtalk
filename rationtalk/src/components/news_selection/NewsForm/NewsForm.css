@@ -1,0 +1,58 @@
+/* src/components/NewsForm.css */
+
+.news-form {
+  max-width: 700px;
+  margin: 0 auto;           /* center the form on the page */
+  padding: 1.5rem;
+  font-family: 'Andada Pro', serif;
+}
+
+/* NEW: center both the label and the grid under it */
+.section-chooser {
+  display: flex;
+  flex-direction: column;  /* stack label on top of the selector */
+  align-items: center;     /* horizontally center everything inside */
+  margin-bottom: 1.5rem;   /* space below before the next block */
+}
+
+/* You can now remove display:flex/justify-content from the label itself,
+   and just use text-align:center to center the text within the label. */
+.section-chooser__label {
+  color: #403d3a;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  margin-bottom: 24px;    /* space between the label and the grid */
+  margin-top: 0;
+  text-align: center;     /* center the text inside the label */
+}
+
+/* Similarly, center the count block below if desired: */
+.count-chooser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.count-chooser__label {
+  color: #403d3a;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  margin-bottom: 24px;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* Center your ReviewButton container (if it has a wrapper) */
+.news-form__button-block {
+  display: flex;
+  justify-content: center;
+}
+
+/* Optional styling for disabled state */
+.news-form__button-block button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

@@ -1,0 +1,49 @@
+/* src/components/review/QuestionItem.css */
+.question-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.75rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1.125rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.question-text {
+  background-color: #ffffff;
+  padding: 1.125rem;
+  border-radius: 0.75rem 0.75rem 0.75rem 0rem;
+  font-size: 1.125rem;
+  margin-bottom: 0.75rem;
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.05);
+  align-self: flex-start;
+  width: 95%;
+}
+
+.response-input {
+
+  background-color: #dfcfb8; /* light orange/beige */
+  border: none;
+  border-radius: 0.75rem 0rem 0.75rem 0.75rem;
+  padding: 0.75rem;
+  font-size: 1.125rem;
+  resize: vertical;
+  min-height: 4rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+  align-self: flex-end;
+  width: 95%;
+  overflow: hidden;
+}
+
+.question-text {
+  white-space: normal;
+  overflow-wrap: break-word;    
+  word-break: break-word;      
+}
+
+.response-input:focus {
+    outline: 3px solid #b39c7f;
+
+}
+
+/*#b39c7f

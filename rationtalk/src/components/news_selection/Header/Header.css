@@ -1,0 +1,33 @@
+/* src/components/Header.css */
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'Andada Pro', serif;
+}
+
+.logo {
+  font-size: 1.5rem;        /* make the title big */
+  font-weight: 600;
+  margin: 0;
+  color: #b9976d              /* remove default <h1> margin */
+}
+
+.subtitle {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #8b7355;             /* a dark gray color */
+  margin-top: 9.21875rem;
+  margin-bottom: 0rem;
+}
+
+/* If you only want to style the solid version (not any other style): */
+.fa-solid.fa-comment {
+  /* same rules as above, but more specific */
+  color: #b89b6f;
+  margin-right: 10px
+
+}

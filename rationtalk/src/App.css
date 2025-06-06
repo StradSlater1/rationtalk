@@ -1,0 +1,7 @@
+html, body {
+  margin: 0;            /* remove default browser margins */
+  padding: 0;
+  background-color: #f5f2e9;  /* your desired page background */
+  /* optionally, set a base font here too: */
+  /* font-family: 'Poppins', sans-serif; */
+}

@@ -1,0 +1,14 @@
+/* src/components/SectionSelector.css */
+
+.section-selector {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  /* Two columns of equal width; adjust to repeat(3, 1fr) if you want three columns */
+  gap: 0.5rem 4.25rem; /* 0.5rem row gap, 1.5rem column gap */
+}
+
+@media (max-width: 400px) {
+  .section-selector {
+    grid-template-columns: 1fr; /* stack on very small screens */
+  }
+}

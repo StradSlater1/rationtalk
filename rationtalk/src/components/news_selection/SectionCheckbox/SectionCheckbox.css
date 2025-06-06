@@ -1,0 +1,63 @@
+/* src/components/SectionCheckbox.css */
+
+.section-checkbox {
+  display: flex;
+  align-items: center;
+  user-select: none;
+  margin-bottom: 0.25rem;
+  border-radius: 3px;
+  color: #faf8f9;
+  font-family: 'Plus Jakarta Sans', serif;
+}
+
+.section-checkbox input[type="checkbox"] {
+  appearance: none;            /* standard */
+  -webkit-appearance: none;    /* Safari/Chrome */
+  -moz-appearance: none;       /* Firefox */
+
+  /* Basic size for the box: */
+  width: 1.2rem;
+  height: 1.2rem;
+
+  /* Draw the unchecked “box” as a thin border: */
+  border: 2px solid #888;      /* gray border */
+  border-radius: 4px;          /* slightly rounded corners */
+  background-color: #faf8f9;     /* white background when unchecked */
+  position: relative;          /* so ::after/::before can be positioned inside */
+  border-color: #b89b6f;
+  /* Allow clicking anywhere inside the input: */
+  cursor: pointer;
+  margin-right: 0.8rem;
+}
+
+/* Draw the checkmark when the checkbox is checked */
+.section-checkbox input[type="checkbox"]::after {
+  content: "";                  /* pseudo-element exists but is hidden by default */
+  position: absolute;
+  top: 0.15rem;                 /* tweak these values to center the checkmark */
+  left: 0.35rem;
+  width: 0.3rem;
+  height: 0.6rem;
+  border: solid white;          /* color of the “check” (white here, since we’ll change the background) */
+  border-width: 0 3px 3px 0;    /* draw only two edges to look like a “✓” */
+  transform: rotate(45deg);     /* rotate those edges into a checkmark */
+  opacity: 0;                   /* hide by default */
+  transition: opacity 0.1s ease-in-out;
+}
+
+/* When checked, change the box’s background & border, then show ::after as the checkmark */
+.section-checkbox input[type="checkbox"]:checked {
+  background-color: #b89b6f;    /* checked background color */
+  border-color: #b89b6f;        /* match the border to the background */
+}
+
+/* Reveal the white checkmark: */
+.section-checkbox input[type="checkbox"]:checked::after {
+  opacity: 1;
+}
+
+
+.section-checkbox label {
+  font-size: 1rem;
+  color: #403d3a;
+}

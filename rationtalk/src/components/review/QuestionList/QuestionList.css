@@ -1,0 +1,13 @@
+/* src/components/review/QuestionList.css */
+.question-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.question-list-header{
+    font-family: "Andada Pro", serif;
+    font-size: 1.5rem;
+    color: #8d6f4d;
+    font-weight: 600;
+}

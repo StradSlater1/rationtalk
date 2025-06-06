@@ -1,0 +1,41 @@
+/* src/components/review/StoryCard.css */
+.story-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.story-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* space between image and title */
+}
+
+.story-image {
+  width: 160px;           /* fixed width */
+  height: 100px;          /* fixed height */
+  object-fit: cover;      /* scale and crop to fill */
+  object-position: center;/* optional: center‐crop instead of top‐crop */
+  border-radius: 8px;  /* if you want rounded corners */
+  border: 3px solid #b99a74
+}
+
+.story-title {
+  margin: 1rem 0 0.5rem;
+  font-family: 'Andada Pro', serif;
+  font-size: 1.875rem;
+  font-weight: 600;
+  white-space: normal;
+  overflow-wrap: break-word;    
+  word-break: break-word;
+}
+
+.story-summary {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  color: #424240;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  white-space: normal;
+  overflow-wrap: break-word;    
+  word-break: break-word;
+}

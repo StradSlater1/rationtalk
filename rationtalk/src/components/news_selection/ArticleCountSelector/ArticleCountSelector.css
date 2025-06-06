@@ -1,0 +1,42 @@
+/* src/components/ArticleCountSelector.css */
+
+.article-count-selector {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.article-count-selector__value{
+    font-family: 'Andada Pro', serif;
+    font-size: 3rem; 
+    color: #8c7759;
+    width: 3ch;          
+    min-width: 3ch;
+    text-align: center;
+    margin: 0 1rem 0 1rem;
+    
+}
+
+.article-count-selector button {
+  /* your styles here */
+  background: none;
+  border: none;
+  color: #b89b6f;
+  font-size: 2.5rem;
+  cursor: pointer;
+  padding: 0 0.5rem;
+}
+
+.article-count-selector button:hover {
+  color: #8c7759; /* darker color on hover */
+}
+.increment-btn:disabled {
+  /* whatever “disabled+” color you prefer */
+  color:#d4d6d4;  /* e.g. light red, or use gray (#ccc) or your theme color */
+}
+
+.increment-btn:disabled:hover {
+  color: #d4d6d4; /* darker color on hover */
+}
