@@ -1,10 +1,4 @@
 
-
-API_KEY_OPEN_AI = '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'
-
-# Ensure you have NLTK's punkt for sentence tokenization:
-# nltk.download('punkt')
-
 from article_clean_class import Articles
 from ast import literal_eval
 import nltk
@@ -16,6 +10,14 @@ from openai import OpenAI
 from nltk.tokenize import sent_tokenize
 from numpy.linalg import norm
 from collections import defaultdict
+from dotenv import load_dotenv
+import os
+
+# Look for a .env file in your project root and load it
+load_dotenv()
+
+# Now you can read the key from the environment
+API_KEY_OPEN_AI = os.getenv("OPENAI_API_KEY")
 
 # Make sure you have NLTK’s punkt tokenizer downloaded:
 # nltk.download('punkt')
@@ -38,7 +40,7 @@ for file_index in range(0, 80):  # adjust upper bound to your total file count
     # 1) Read & clean articles from CSV
     #
     df = pd.read_csv(
-        f'Scraped_news/060525/{file_index}.csv',
+        f'data/article_data/{file_index}.csv',
         encoding='utf-8',
         converters={'Paragraphs': literal_eval}
     )
@@ -193,4 +195,4 @@ for file_index in range(0, 80):  # adjust upper bound to your total file count
 
 # After processing all files, save to CSV
 sum_ques_df = pd.DataFrame(sum_ques)
-sum_ques_df.to_csv('Scraped_news/060525/all_summaries_final.csv', index=False)
+sum_ques_df.to_csv('data/story_data.csv', index=False)

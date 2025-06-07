@@ -4,14 +4,14 @@ import os
 
 # ———————— USER CONFIGURATION ————————
 # 1) Replace this path with the path to your Excel or CSV file:
-INPUT_PATH = "scripts/all_summaries_060525.csv"
+INPUT_PATH = "data/story_data.csv"
 
 
 #    • If your data is already in CSV form, you can set:
 #      INPUT_PATH = "all_summaries.csv"
 #
 # 2) The output TSX file name. Change if you like:
-OUTPUT_PATH = "rationtalk/src/assets/data/stories.tsx"
+OUTPUT_PATH = "../rationtalk/src/assets/data/stories1.tsx"
 # ————————————————————————————————————
 
 # 1) Load the sheet (supports both .xlsx and .csv based on extension)

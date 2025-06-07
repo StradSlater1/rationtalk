@@ -9,751 +9,893 @@ export interface StoryData {
 
 export const storiestouse: StoryData[] = [
   {
-    topic: 'U.S.',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iI0NnNDNUVlF4YUdzd05sRktSVlkyVFJDZkF4ampCU2dLTWdB=-w280-h168-p-df',
-    title: 'Tensions Rise Between Elon Musk and Donald Trump Over Controversial Legislation',
-    summary: 'Elon Musk and Donald Trump are experiencing a significant rift following Musk\'s vocal criticism of a budget reconciliation bill supported by Trump. Musk, who previously invested heavily in Trump\'s political campaign, has labeled the bill a "disgusting abomination" and called for its termination, particularly criticizing its tax provisions that are projected to increase the deficit by $3.8 trillion by 2034. This public fallout has led to a notable decline in Tesla\'s stock, which dropped over 14% as Musk\'s criticisms intensified. Trump, in response, expressed disappointment in Musk, suggesting that his criticism stems from a sense of loss after leaving the administration. The tension escalated as Musk accused Trump of failing to release records related to Jeffrey Epstein, implying Trump\'s involvement. The relationship between the two influential figures appears to be deteriorating, with both sides exchanging pointed remarks.',
+    topic: "U.S.",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNVhNM2s1WVZaU1RYbHdaRFY2VFJDZkF4ampCU2dLTWdZQndJNUtQUVU=-w280-h168-p-df",
+    title: "Legal Battle Over the Future of the Department of Education",
+    summary:
+      "President Trump's administration has requested the Supreme Court's intervention to allow it to proceed with plans to dismantle the Department of Education and terminate over 1,300 employees, despite ongoing legal challenges regarding the department's future. This request follows a recent decision by a federal appeals court, which upheld a lower court's ruling that blocked Trump's executive order aimed at shutting down the department. The Ninth Circuit Court of Appeals stated that the executive order exceeds the President's constitutional supervisory powers.",
     questions: [
-      "What do you think are the implications of Musk's criticism on his business interests, particularly Tesla's stock performance?",
-      'How might the fallout between Musk and Trump affect their respective political and business relationships moving forward?',
-      'In what ways do you think public figures should navigate their relationships with political leaders, especially when their interests conflict?',
+      "What are the potential implications of dismantling the Department of Education for students and educators across the country?",
+      "How do you think the Supreme Court will respond to the Trump administration's request, and what factors might influence their decision?",
+      "In what ways could this legal battle impact the broader conversation about the role of federal government in education?",
     ],
   },
   {
-    topic: 'U.S.',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNU9ObFUwUTJOMlRqbHlUWG93VFJERUF4aW1CU2dLTWdhdEpZek9tUW8=-w280-h168-p-df',
-    title: 'Supreme Court Ruling on Reverse Discrimination Claims',
-    summary: 'The Supreme Court has made it easier for individuals from majority backgrounds, such as white or heterosexual individuals, to file claims of reverse discrimination in the workplace. This decision revives a lawsuit from an Ohio woman who alleged that she was denied a promotion and demoted due to her heterosexuality. In the opinion authored by Justice Ketanji Brown Jackson, the Court emphasized that Title VII of the Civil Rights Act does not differentiate between majority and minority groups in discrimination claims. The ruling also criticized the "background circumstances rule" previously used by lower courts, stating that it is inconsistent with the law\'s text and prior Supreme Court decisions.',
+    topic: "U.S.",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iI0NnNVVZMk00TWxSamMyOTNhbXRQVFJDZkF4amlCU2dLTWdB=-w280-h168-p-df",
+    title: "Bannon's Call for Action Against Musk and SpaceX",
+    summary:
+      'In a recent episode of his "War Room" podcast on Real America’s Voice, Steve Bannon urged former President Trump to sign an executive order to halt operations at SpaceX, the aerospace company founded by Elon Musk. Bannon labeled Musk an "illegal alien" and suggested he should face deportation, citing unspecified "facts." He warned that Trump needed to act decisively against Musk to prevent the billionaire from collaborating with Democrats to undermine Trump\'s political future, including potential impeachment and interference in the 2028 election. In response to Bannon\'s comments, Trump threatened to withdraw federal contracts from Musk\'s companies, while Musk indicated he might decommission SpaceX\'s Dragon spacecraft.',
     questions: [
-      'What implications do you think this ruling will have on future workplace discrimination cases?',
-      "How do you feel about the concept of reverse discrimination, and do you think it is a significant issue in today's society?",
-      'In what ways might this decision affect the dynamics of diversity and inclusion initiatives in the workplace?',
+      "What do you think motivates Bannon's strong stance against Musk and SpaceX?",
+      "How do you perceive the relationship between technology companies and political figures in the current landscape?",
+      "What implications could Bannon's call for action have on the future of space exploration and private aerospace companies?",
     ],
   },
   {
-    topic: 'U.S.',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iL0NnNHlaRGhOYjFWbFFWUjZjbU40VFJDa0F4ajJCQ2dLTWdtQkVKeTJET3ZBcFFJ=-w280-h168-p-df',
-    title: 'Merz and Trump Discuss Trade and War in Europe',
-    summary: "German Chancellor Friedrich Merz is scheduled to meet with U.S. President Donald Trump on Thursday, marking their first in-person encounter since Merz took office in May. The meeting comes at a critical time, as both leaders face trade disputes and the ongoing war in Europe. Merz expressed a shared desire to find solutions to end the conflict, while Trump reflected on the historical significance of D-Day, acknowledging its unpleasantness for Germany but recognizing it as a pivotal moment in the country's liberation from Nazi rule. The conversation also touched on U.S. support for Ukraine and the need for increased pressure on Russia.",
+    topic: "U.S.",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iL0NnNUtSVEIxVUd0alNFeG1RbWhvVFJDZkF4ampCU2dLTWdrUkFJem5EV3dHVHdF=-w280-h168-p-df",
+    title: "Trump's Visa Restrictions and Harvard University",
+    summary:
+      "The Trump administration implemented restrictions on visa applicants intending to study at Harvard University, arguing that the university's actions made it an unsuitable environment for foreign students and researchers. This decision was met with strong opposition from Harvard, which described the proclamation as an illegal retaliatory measure that infringes on its First Amendment rights. Harvard emphasized its commitment to protecting its international student body, which comprises nearly 7,000 students, or 27% of its total enrollment for the 2024-2025 academic year. The administration's actions are part of a broader conflict, including the freezing of over $2.2 billion in research funding, threats to revoke the university's tax-exempt status, and federal investigations aimed at enforcing changes at Harvard. Despite these challenges, the university is pursuing legal avenues to counter the administration's measures, which could potentially undermine its status as a leading institution in the United States.",
     questions: [
-      'How do you think the historical context of D-Day influences current U.S.-Germany relations?',
-      'What measures do you believe are most effective in addressing the ongoing war in Europe?',
-      'In what ways do trade disputes complicate international cooperation on security issues?',
+      "What are the potential implications of the Trump administration's visa restrictions on Harvard's international student population and its reputation?",
+      "How might Harvard's legal challenges against the administration's actions affect the future of international education in the U.S.?",
+      "In what ways do you think the conflict between the Trump administration and Harvard reflects broader issues regarding immigration and education policy in the United States?",
     ],
   },
   {
-    topic: 'U.S.',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNVRUamRvWjBGaGJVWXhWelZ5VFJDUUF4allCQ2dLTWdZQklaNnJtUW8=-w280-h168-p-df',
-    title: 'U.S.-China Trade Talks Amid Ongoing Tensions',
-    summary: "The recent phone call between U.S. President Donald Trump and Chinese President Xi Jinping marks their first confirmed communication since Trump took office in January, occurring against a backdrop of ongoing tensions between the two nations. Trump expressed his view that negotiating with Xi is challenging, highlighting the complexities surrounding trade, particularly concerning Rare Earth products. The two leaders previously reached a deal on May 12, which involved significant reductions in tariffs: the U.S. lowered tariffs on Chinese goods from 145% to approximately 30%, while China reduced its tariffs on American imports to 10%. In his post-call remarks, Trump noted Xi's invitation for him and First Lady Melania Trump to visit China, reciprocating with an invitation for Xi to come to the U.S., emphasizing the importance of their relationship as leaders of major global powers.",
+    topic: "U.S.",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNTZPUzFhZEVaRGEzZENXRWd5VFJERUF4aW1CU2dLTWdhbGhZek9zUVk=-w280-h168-p-df",
+    title: "The Impact of Immigration Detention on Activism and Family Life",
+    summary:
+      "Mahmoud Khalil, a Columbia graduate and legal U.S. resident, was detained by federal immigration agents on March 8 due to his pro-Palestinian activism, marking the first arrest under the Trump administration's crackdown on students protesting against Israel's actions in Gaza. In court filings, Khalil detailed the profound \"irreparable harm\" caused by his detention, particularly the emotional distress of missing the birth of his first child. He recounted the heart-wrenching experience of hearing his son’s first cries while confined in a detention center, emphasizing the personal and professional repercussions of his situation, including the loss of a job offer from Oxfam International and complications regarding his mother's visa. His wife, Dr. Noor Abdalla, expressed the difficulties of navigating parenthood without her husband. Khalil's case has raised concerns among students and faculty at Columbia about the chilling effects of his arrest on campus activism. A federal judge has indicated that the government's rationale for Khalil's deportation may violate constitutional rights, questioning the legitimacy of using political beliefs as grounds for removal. In response, the Department of Homeland Security suggested Khalil self-deport, offering financial incentives for those in the country illegally.",
     questions: [
-      'What do you think are the main challenges in reaching a trade agreement between the U.S. and China?',
-      'How do you believe the ongoing tensions between these two countries will impact global trade?',
-      'In what ways do you think personal relationships between leaders, like Trump and Xi, influence international negotiations?',
+      "How do you think Khalil's case reflects broader issues of free speech and activism in the United States?",
+      "What are the potential implications of using political beliefs as a basis for immigration enforcement?",
+      "In what ways can communities support individuals facing similar challenges as Khalil?",
     ],
   },
   {
-    topic: 'U.S.',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iL0NnNVhVRUZEWDFZdE4wZGxhMlJZVFJERUF4aW1CU2dLTWdrTlFaelZvS21wU0FJ=-w280-h168-p-df',
-    title: "Investigation into Biden's Executive Actions and Pardons",
-    summary: "The ongoing investigation into President Biden's use of executive actions and pardons during his final years in office has raised significant questions. The probe will examine the circumstances surrounding the use of an autopen for signing documents and who authorized the affixing of Biden's signature. While the Justice Department has historically recognized the legitimacy of autopen use, former President Trump has alleged that Biden was unaware of the actions taken in his name, despite Biden asserting his full responsibility for all decisions made during his presidency. House Oversight Chairman James Comer has called for interviews with several Biden aides, claiming their involvement constitutes a major scandal. Biden's issuance of pardons for his family members shortly before leaving office has also drawn scrutiny, with Comer suggesting it was an attempt to evade potential prosecution. In response, Biden has characterized the allegations as distractions from pressing legislative issues, while Trump has admitted to lacking concrete evidence of wrongdoing but continues to question Biden's mental acuity. ### Questions:",
+    topic: "U.S.",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNWhVR0ZZY0VoQlRGWndZbGw2VFJDUEF4alhCQ2dLTWdhcFE1Q3VuUWs=-w280-h168-p-df",
+    title: "The Impact of the Transgender Military Ban on Service Members",
+    summary:
+      "The recent reinstatement of a ban on transgender individuals serving in the U.S. military has led to significant turmoil among service members. As the deadline for voluntary separation approaches, many transgender troops are grappling with the difficult decision to leave a career they cherish. The Air Force Academy confirmed that three transgender cadets graduated but were not commissioned, highlighting the personal and professional betrayals felt by those affected. While some service members are opting to take financial bonuses and depart, others are determined to stay and fight against the policy, which they view as discriminatory. The situation is further complicated by the fear of involuntary separations, which could negatively impact their future job prospects and security clearances. The military's approach to enforcing the ban varies, with some units potentially allowing flexibility while others may strictly adhere to the new guidelines. As the deadline looms, uncertainty prevails, leaving many to question their future in the military and the implications of the administration's policies on diversity and inclusion.",
     questions: [
-      'What are your thoughts on the legitimacy of using an autopen for signing executive actions and pardons?',
-      "How do you perceive the political motivations behind the investigation into Biden's actions?",
-      'In what ways do you think this situation reflects broader issues of accountability and transparency in government?',
+      "How do you think the reinstatement of the transgender military ban affects the overall morale and cohesion within military units?",
+      "What are the potential long-term consequences for the military if a significant number of qualified transgender service members choose to leave?",
+      "In what ways do you believe the current political climate influences policies related to diversity and inclusion in the military?",
     ],
   },
   {
-    topic: 'U.S.',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNTBaWFF4TFVSdVJHaE5hRGhIVFJDZkF4ampCU2dLTWdZQkJZYk9DUXc=-w280-h168-p-df',
-    title: 'Landmark Case of Wrongful Deportation and Return to the U.S.',
-    summary: "A Guatemalan man, referred to as O.C.G., has been returned to the United States after being wrongfully deported to Mexico by the Trump administration, marking a significant compliance with a judge's order. His legal team confirmed that he arrived in California and contacted them while waiting to go through U.S. Customs and Border Protection. O.C.G., who is gay, had previously been protected from deportation to Guatemala due to a U.S. immigration judge's ruling that he faced persecution and torture if returned. He also expressed fear of returning to Mexico, where he had suffered rape and extortion while seeking asylum. U.S. District Judge Brian Murphy ruled that O.C.G.'s deportation lacked due process, highlighting the broader issue of migrants being sent back to countries where they face danger. This case is notable as it is the first instance of the Trump administration adhering to a court order for the return of a wrongfully deported individual.",
+    topic: "U.S.",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iL0NnNVplRXN0VVZBemVFSkVjMnh0VFJDUUF4allCQ2dLTWdtaEFvcjBsQ3FMNVFJ=-w280-h168-p-df",
+    title: "Resumption of US-China Trade Talks",
+    summary:
+      "US President Donald Trump recently engaged in a long-awaited phone call with Chinese leader Xi Jinping, resulting in an agreement to restart trade negotiations that had previously stalled due to mutual accusations of broken promises. Under a deal established on May 12, the U.S. committed to lowering tariffs on Chinese goods from 145% to approximately 30%, while China agreed to reduce its tariffs on American imports to 10%. Following this call, key U.S. officials, including Secretary of the Treasury Scott Bessent and Secretary of Commerce Howard Lutnick, are set to meet with high-ranking Chinese officials in London to discuss the trade deal further. Trump expressed his admiration for Xi, acknowledging the challenges in reaching an agreement, particularly regarding the complexities surrounding Rare Earth products.",
     questions: [
-      'What implications do you think this case has for future deportation policies and the treatment of asylum seekers in the U.S.?',
-      "How do you feel about the legal system's role in protecting individuals from wrongful deportation?",
-      'What are your thoughts on the challenges faced by LGBTQ+ individuals seeking asylum in the U.S. compared to other groups?',
+      "What do you think are the main challenges that the U.S. and China face in reaching a successful trade agreement?",
+      "How do you believe the reduction of tariffs will impact the economies of both countries?",
+      "In what ways do you think the relationship between Trump and Xi influences the trade negotiations?",
     ],
   },
   {
-    topic: 'U.S.',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iI0NnNTRaMGwzUW1Od05FTXRXVEp0VFJER0F4aWpCU2dLTWdB=-w280-h168-p-df',
-    title: 'Detention of High School Student by ICE Raises Concerns',
-    summary: "An 18-year-old student from Milford High School, Marcelo Gomes da Silva, was detained by U.S. Immigration and Customs Enforcement (ICE) just a day before his scheduled performance at the graduation ceremony. The incident occurred while he was on his way to volleyball practice, and it has sparked significant concern among local officials and the community. According to a spokesperson for the Department of Homeland Security, Gomes da Silva was apprehended because he was found to be in the United States illegally, although the ICE officers were initially targeting his father, Joao Paulo Gomes-Pereira, who has a history of reckless driving. Massachusetts Governor Maura Healey expressed frustration over the lack of communication from ICE regarding the arrest, demanding clarity on the situation and the protection of Gomes da Silva's due process rights. Milford Schools Superintendent Kevin McIntyre emphasized the district's commitment to supporting immigrant families, highlighting the community's distress over recent ICE detentions.",
+    topic: "U.S.",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iI0NnNUlPV1I1Y1hCVGFsVXhObkpuVFJDUUF4allCQ2dLTWdB=-w280-h168-p-df",
+    title: "The Battle of Normandy: A Commemoration of Sacrifice",
+    summary:
+      "The Battle of Normandy, which commenced with D-Day, resulted in significant casualties, with 73,000 Allied forces killed and 153,000 wounded. Additionally, Allied bombings during this period claimed the lives of approximately 20,000 French civilians from June to August 1944. In remembrance of this pivotal event, tens of thousands gathered along the coastline and near the D-Day landing beaches to participate in commemorative activities, including parachute jumps, flyovers, remembrance ceremonies, parades, and historical reenactments. Overall, Operation Overlord, aimed at liberating western France from Nazi occupation, involved more than 2 million personnel, including soldiers, sailors, pilots, and medics from various countries.",
     questions: [
-      "What are the implications of ICE's actions on the local community and immigrant families?",
-      'How can local officials better communicate with federal agencies like ICE to prevent similar situations in the future?',
-      'In what ways can schools support students and families affected by immigration enforcement actions?',
+      "How do you think the sacrifices made during the Battle of Normandy have shaped modern perceptions of military conflict?",
+      "In what ways do you believe the commemoration of events like D-Day impacts the collective memory of a nation?",
+      "What are your thoughts on the balance between honoring military achievements and acknowledging civilian casualties in wartime commemorations?",
     ],
   },
   {
-    topic: 'U.S.',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNWlaMVJqTURST056SnVYM0V3VFJDM0FSaVRBaWdCTWdhcEpaek9GUW8=-w280-h168-p-df',
-    title: 'Concerns Over AI Regulation and State Rights in Congressional Spending Bill',
-    summary: 'In a recent statement on X, Representative Marjorie Taylor Greene expressed her regret for supporting a bill that includes a controversial provision restricting states from regulating artificial intelligence (AI) for a decade. She claimed she was unaware of this section, which she described as a significant infringement on state rights. Greene criticized the bill as a "massive, outrageous, pork-filled Congressional spending bill" and stated that she would oppose it if it retained the AI regulation limitation. She emphasized the unpredictability of AI\'s future capabilities and the potential dangers of allowing it to operate without state oversight. Additionally, Representative Mike Flood of Nebraska acknowledged during a town hall that he was also unaware of the bill\'s implications for judicial authority, further highlighting concerns about transparency and the implications of federal overreach.',
+    topic: "U.S.",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNUdWa3hSY1daa2VtWnRhRTQwVFJERUF4aW1CU2dLTWdZcGxZanR0UVk=-w280-h168-p-df",
+    title: "Supreme Court Ruling on Employment Discrimination Case",
+    summary:
+      "In a significant ruling, the Supreme Court addressed the case of Ames v. Ohio Department of Youth Services, where Marlean Ames alleged that her employer denied her a promotion due to her being a heterosexual woman. The Court unanimously overturned a federal appeals court decision that had dismissed her claims, which were based on a perceived higher standard for majority group members in employment discrimination cases. Justice Ketanji Brown Jackson emphasized that Title VII of the Civil Rights Act of 1964 does not differentiate between majority and minority groups regarding workplace discrimination. The ruling reinforces that both groups are entitled to equal protection under federal civil rights law, affirming Ames' right to pursue her claims without facing an elevated burden of proof.",
     questions: [
-      'What are your thoughts on the balance between federal and state power when it comes to regulating emerging technologies like AI?',
-      'How do you think the limitations on state regulation of AI could impact innovation and safety in the technology sector?',
-      'What measures do you believe should be taken to ensure transparency in legislative processes, especially regarding complex issues like AI regulation?',
+      "What implications do you think this ruling has for future employment discrimination cases involving majority group members?",
+      "How do you feel about the distinction (or lack thereof) between majority and minority groups in the context of civil rights law?",
+      "In what ways do you think this decision might influence workplace policies regarding discrimination and promotions?",
     ],
   },
   {
-    topic: 'U.S.',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iJ0NnNVRibHBNVHpOc05GRm9kemRMVFJDN0F4aTBCU2dLTWdNTjRnZw=-w280-h168-p-df',
-    title: "Trump's Ban on International Students at Harvard and National Security Concerns",
-    summary: "The Trump administration has officially prohibited Harvard University from enrolling new international students, citing the institution's inability to adequately address national security risks on its campus. This decision follows a tumultuous spring when thousands of students lost their permission to remain in the U.S., only for the administration to later reverse its stance. Recently, Secretary of State Marco Rubio announced a more aggressive approach to visa revocation for students from China, further emphasizing the administration's focus on national security. Additionally, the Trump administration has criticized Harvard for not effectively combating antisemitism among other issues. **Questions:**",
+    topic: "U.S.",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNVpMWFJ5TTNCNmQxTTRjbVZFVFJDZkF4amlCU2dLTWdZVktKYUlHZ28=-w280-h168-p-df",
+    title:
+      "Disruptions at Reagan National Airport Due to Upcoming Military Parade",
+    summary:
+      "Reagan National Airport has issued a warning regarding potential disruptions to commercial travel plans due to a military parade scheduled for June 14 in Washington, D.C. The Federal Aviation Administration is anticipated to suspend airline operations at the airport to facilitate military aircraft flying over the parade route and to accommodate a fireworks display. This parade, hosted by Trump, commemorates the U.S. Army’s 250th anniversary, Flag Day, and his 79th birthday, featuring a historic display of tanks on the streets. The event will take place along Constitution Avenue and is expected to conclude by 7:30 p.m. Passengers with flight reservations for that evening are advised to check their flight status directly with their airlines.",
     questions: [
-      'What are your thoughts on the implications of banning international students from prestigious universities like Harvard?',
-      'How do you think national security concerns should be balanced with the benefits of international education?',
-      'In what ways do you believe universities can better address issues like antisemitism while still fostering a diverse student body?',
+      "How do you think the military parade will impact local businesses and tourism in Washington, D.C.?",
+      "What are your thoughts on the use of public funds for such large-scale military displays?",
+      "How do you feel about the balance between national celebrations and the potential inconveniences they cause to everyday citizens?",
     ],
   },
   {
-    topic: 'U.S.',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNDFVRGx6YWxSM1YyZGlSVEF4VFJESkF4aWZCU2dLTWdhaFZwZ0xwZ2c=-w280-h168-p-df',
-    title: "Karine Jean-Pierre's Political Shift and Upcoming Book",
-    summary: "Karine Jean-Pierre, the former White House press secretary for President Joe Biden, has transitioned from the Democratic party to become an independent, as announced by her book publisher. In her upcoming book, she is expected to provide insights into the weeks leading up to Biden's withdrawal from the 2024 presidential race, which followed a poor debate performance. This event ultimately paved the way for former Vice President Kamala Harris to enter the race, although she later lost to President Donald Trump. Reflecting on her new status as a private citizen, Jean-Pierre expressed her concerns about the future of the country in a statement to CNN.",
+    topic: "U.S.",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iI0NnNVZUR0U1VTAxR05FOVlTVlU1VFJDZkF4ampCU2dLTWdB=-w280-h168-p-df",
+    title: "Ongoing Search for Missing Teen Manny Collins",
+    summary:
+      "The search for 16-year-old Manny Collins, who has been missing for nearly a month, continues as his family and law enforcement seek answers. In a recent press conference, the Anoka County Sheriff's Office reaffirmed their commitment to finding Collins, who was last seen on May 8 in Columbia Heights, Minnesota. Described as 5-foot-8 and 140 pounds with black hair and brown eyes, Collins was last known to be wearing a ribbed tank top and red/black plaid pants. Authorities believe he may have gone missing against his will and have identified a person of interest, although no arrests have been made. Investigators have conducted searches in the area and collected forensic evidence, while also interviewing several individuals, including Collins' father. Despite the ongoing investigation, law enforcement has stated that they do not believe there is a threat to the community at large.",
     questions: [
-      'What do you think motivated Karine Jean-Pierre to leave the Democratic party and become an independent?',
-      "How do you believe Biden's debate performance impacted the 2024 election landscape?",
-      "What insights do you hope to gain from Jean-Pierre's upcoming book regarding the political climate during that time?",
+      "What do you think are the most effective ways for communities to support families of missing persons during such difficult times?",
+      "How do you feel about the role of law enforcement in missing person cases, especially regarding transparency with the public?",
+      "What impact do you think the media coverage has on the search for missing individuals and the families involved?",
     ],
   },
   {
-    topic: 'World',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNVNORkI0T0RSTFUwUjNkelkzVFJEMEFoalJBeWdLTWdZQllJcm9xUWM=-w280-h168-p-df',
-    title: 'Expansion of Travel Bans Under Trump Administration',
-    summary: 'President Donald Trump has enacted a comprehensive travel ban affecting 12 countries, with additional restrictions on seven others, marking a revival and expansion of the travel bans from his first term. This decision follows a recent terror attack in Boulder, Colorado, which Trump cited as evidence of the dangers posed by inadequately vetted foreign nationals and visa overstayers. The White House emphasized that regions in Somalia are utilized by terrorists as operational safe havens. Notably, Egypt is excluded from the list of banned countries. The travel ban has faced significant criticism, and President Joe Biden, who took office after Trump, repealed it in 2021, labeling it "a stain on our national conscience."',
+    topic: "World",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNDRNRU5aVDFsdE4wRkRabW8xVFJERUF4aW1CU2dLTWdZcGtvcXVzUVk=-w280-h168-p-df",
+    title: "Escalating Conflict: Russia's Retaliatory Strikes on Ukraine",
+    summary:
+      "In a significant escalation of hostilities, Russia launched a devastating missile and drone attack on Kyiv, resulting in the deaths of four individuals, including three emergency workers. This assault, which involved over 400 drones and 40 missiles, was described by Ukrainian President Volodymyr Zelenskyy as targeting nearly all of Ukraine. The attack followed Russian President Vladimir Putin's vow to retaliate against Ukraine's recent long-range strike on Russian air bases, referred to as Operation Spiderweb. Additionally, a separate attack on the western city of Ternopil left ten people injured, including five emergency responders. Russia's defense ministry characterized the strikes as a response to what they termed \"terrorist acts by the Kyiv regime,\" asserting that military sites were the primary targets.",
     questions: [
-      'What are your thoughts on the effectiveness of travel bans in enhancing national security?',
-      'How do you think the travel ban impacts the relationship between the United States and the countries affected?',
-      'In what ways do you believe the public perception of travel bans has changed since the Trump administration?',
+      "What do you think are the long-term implications of Russia's recent attacks on Ukraine for regional stability?",
+      "How might international responses to these escalations influence the course of the conflict?",
+      "In what ways do you believe the actions of both Russia and Ukraine could affect civilian populations in the affected areas?",
     ],
   },
   {
-    topic: 'World',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNXlVVTlEWm14TFpYUjZla3d6VFJDMkF4aTlCU2dLTWdZQlFvNzBPQVk=-w280-h168-p-df',
-    title: "Israel's Support for Palestinian Clans in Gaza Amid Conflict",
-    summary: 'Israeli Prime Minister Benjamin Netanyahu announced that Israel has "activated" certain Palestinian clans in Gaza that oppose Hamas, although the specific role of these groups remains unclear. This decision, made on the advice of security officials, aims to protect Israeli soldiers\' lives. One notable group mentioned is the Popular Forces, led by Yasser Abu Shabab, which has reportedly been involved in securing humanitarian aid shipments to Israeli-backed food distribution centers in Rafah. However, this move has drawn criticism, with accusations that the Israeli government is arming a group associated with criminal activities and Islamic State. Reports indicate that the weapons provided to Abu Shabab\'s group may have been seized from Hamas. The emergence of this group has raised concerns, as they have publicly displayed their armed presence while claiming to protect humanitarian efforts, leading to allegations of looting.',
+    topic: "World",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNXhNbWhyVUZRd1gxTkZZVGRNVFJDMkFoalJBeWdLTWdhSlFaUnRKUWM=-w280-h168-p-df",
+    title: "Travel Bans and National Security: A Controversial Policy Debate",
+    summary:
+      'In response to concerns about national security, former President Donald Trump implemented a comprehensive travel ban affecting nationals from 12 countries, with additional restrictions on seven others. He cited the dangers posed by inadequately vetted foreign nationals, particularly in light of incidents like the Boulder, Colorado terror attack. Trump highlighted the high visa overstay rates from countries such as Chad, where the B‑1/B-2 visa overstay rate reached 49.54 percent. He claimed that his travel restrictions were instrumental in preventing significant foreign terror attacks during his presidency. In contrast, President Joe Biden, who took office after Trump, rescinded the travel ban in 2021, labeling it a "stain on our national conscience" and acknowledging that some nationals still present risks of overstaying their visas.',
     questions: [
-      "What are the potential implications of Israel's support for armed Palestinian clans on the overall stability in Gaza?",
-      'How might the involvement of groups like the Popular Forces affect the humanitarian situation for civilians in Gaza?',
-      'What ethical considerations arise from a government providing arms to non-state actors in a conflict zone?',
+      "What are your thoughts on the effectiveness of travel bans in enhancing national security?",
+      "How do you think the balance between national security and humanitarian concerns should be approached in immigration policy?",
+      "In your opinion, what role should visa overstay rates play in shaping immigration policies?",
     ],
   },
   {
-    topic: 'World',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNXJla05XUVcxelRsTlZhMnhrVFJDM0FSaVRBaWdCTWdZQnFJNmx2Z1U=-w280-h168-p-df',
-    title: 'U.S. Sanctions Against ICC Officials and Their Implications',
-    summary: "The International Criminal Court (ICC) has condemned recent U.S. sanctions as an attempt to undermine its independence, which is supported by 125 member states. These sanctions follow the ICC's issuance of arrest warrants for Israeli officials, including Prime Minister Benjamin Netanyahu, for alleged war crimes, a move that has drawn criticism from the Biden administration. The ICC argues that these sanctions not only target specific individuals but also threaten the broader support for the Court and the rule of law, impacting victims of crimes and the pursuit of justice. The sanctions bar entry to four female judges and block their assets in the U.S., a measure typically reserved for adversaries rather than judicial figures. The U.S. has also placed restrictions on ICC chief prosecutor Karim Khan, who is currently under investigation for misconduct. The situation raises concerns about accountability and the sovereignty of nations, particularly in relation to U.S. allies like Israel.",
+    topic: "World",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iL0NnNVNXSG80WkRoT2FEZHhaVlo2VFJDUUF4allCQ2dLTWdrQmtJS0NPR093bWdB=-w280-h168-p-df",
+    title: "Controversial Strategies in the Israel-Gaza Conflict",
+    summary:
+      'In a recent statement, an Arab ambassador criticized Israeli Prime Minister Benjamin Netanyahu for his decision to arm the Abu Shabab clan, a notorious gang in Gaza, as a strategy against Hamas. The ambassador argued that this move reflects Netanyahu\'s failure to learn from the events of October 7, suggesting that his past actions, which aimed to weaken the Palestinian Authority by supporting Hamas, are now being repeated with the backing of a criminal group. The Abu Shabab clan, which refers to itself as the "Anti-Terror Service," is known for its involvement in looting humanitarian aid and is believed to have received Kalashnikov rifles from Israel, including weapons previously seized from Hamas. The ambassador expressed concern that such support only serves to benefit Hamas in the long run.',
     questions: [
-      "What are the potential consequences of the U.S. sanctions on the ICC's ability to function effectively?",
-      "How might the ICC's actions against Israeli officials influence international perceptions of justice and accountability?",
-      "In what ways do you think the U.S. government's stance on the ICC reflects its broader foreign policy priorities?",
+      "What are the potential consequences of arming groups like the Abu Shabab clan in the context of the ongoing conflict in Gaza?",
+      "How might Netanyahu's strategy of supporting criminal factions impact the broader political landscape in the region?",
+      "In what ways could this situation affect the humanitarian efforts in Gaza, given the involvement of groups known for looting aid?",
     ],
   },
   {
-    topic: 'World',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNXdaR1U1TTJaSVkwZDBYM2xEVFJDZkF4ampCU2dLTWdhdFJJNnVwUVk=-w280-h168-p-df',
-    title: 'Recovery of Hostages and the Ongoing Conflict in Gaza',
-    summary: "Israel has successfully recovered the remains of Judih Weinstein and Gad Haggai, two Israeli-American hostages who were killed during the Hamas attack on October 7, 2023. Their bodies were returned following an operation in southern Gaza, amidst a backdrop of significant loss, with over 54,000 Palestinians, primarily women and children, reported dead in the ongoing conflict, according to the Health Ministry in Gaza. Israeli Prime Minister Netanyahu expressed condolences to the families of the deceased, emphasizing the state's commitment to bringing all hostages home and the importance of healing for the nation. The government has reiterated the necessity of negotiating to secure the return of the remaining 56 hostages, both for their rehabilitation and for the proper burial of those who have died.",
+    topic: "World",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iL0NnNURRa2RCYjFsUU1GOHdlakZEVFJERUF4aW1CU2dLTWdrQklKd2psMm9leFFJ=-w280-h168-p-df",
+    title: "Diplomatic Dynamics: Trump, Merz, and the Russia-Ukraine Conflict",
+    summary:
+      "In a recent meeting in the Oval Office, German Chancellor Friedrich Merz presented former President Donald Trump with a facsimile of his grandfather's birth certificate, symbolizing a connection to Germany. During their discussion, Trump compared the Russia-Ukraine war to a conflict between children, suggesting that sometimes it is better to let adversaries fight before intervening. Merz, who has been in office since May, has sought to foster a more constructive relationship with the U.S. compared to his predecessor, Angela Merkel. He has actively engaged in diplomacy regarding Ukraine, visiting Kyiv and hosting Ukrainian President Zelenskyy in Berlin. Merz's government is also continuing efforts to strengthen Germany's military in response to the Russian invasion. Trump, who previously criticized Germany for not meeting NATO defense spending targets, is now advocating for even higher contributions from allies. Merz emphasized Germany's significant investments in the U.S. and expressed a commitment to supporting Ukraine in its struggle against Russia.",
     questions: [
-      'How do you think the recovery of hostages impacts the emotional state of the families involved and the broader community in Israel?',
-      'What are your thoughts on the humanitarian implications of the ongoing conflict in Gaza, especially regarding civilian casualties?',
-      'In what ways do you believe the Israeli government should approach negotiations for the remaining hostages?',
+      "How do you think the relationship between the U.S. and Germany will evolve under Chancellor Merz compared to previous administrations?",
+      "What are the potential implications of Trump's analogy about the Russia-Ukraine war for international diplomacy?",
+      "In what ways do you think increased military spending by Germany will impact NATO's collective defense strategy?",
     ],
   },
   {
-    topic: 'World',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iI0NnNVJXVUYwUTB4M1lVZDBTRXhSVFJDZkF4ampCU2dLTWdB=-w280-h168-p-df',
-    title: "Ukraine's Operation Spiderweb: A Strategic Drone Assault on Russian Airfields",
-    summary: "Recent satellite imagery and an official video have unveiled the extensive destruction caused by Ukraine's drone attacks on Russian airfields during the unprecedented Operation Spiderweb. The operation, which has been in planning for over a year and a half, reportedly resulted in the targeting of at least ten aircraft, with Ukraine claiming that as many as 41 Russian military jets were destroyed. The drone strikes, which reached as far as the Belaya air base in Russia's Irkutsk region—over 2,500 miles from Ukraine—were executed using drones concealed in container trucks, allowing for a surprise attack. The Security Service of Ukraine announced that the operation had decimated 34% of Russia's fleet of air missile carriers, with damages estimated at $7 billion. In response to the attacks, Russian President Putin vowed to retaliate during a call with President Trump.",
+    topic: "World",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNXBXVWM0VXpWTU5GaEpNeloyVFJEZ0F4aUFCU2dLTWdhSmFaYkZLZ2c=-w280-h168-p-df",
+    title:
+      "U.S. Sanctions on ICC Judges in Response to War Crimes Investigations",
+    summary:
+      "The Trump administration imposed sanctions on four judges at the International Criminal Court (ICC) following the court's issuance of an arrest warrant for Israeli Prime Minister Benjamin Netanyahu and its decision to investigate alleged war crimes by U.S. troops in Afghanistan. U.S. Secretary of State Marco Rubio stated that these actions were necessary to protect U.S. sovereignty and that of its allies, including Israel, from what he termed illegitimate actions by the ICC. The sanctions specifically targeted ICC prosecutor Karim Khan, who sought the arrest warrants, and were criticized for undermining accountability and the rule of law. Slovenia called on the European Union to utilize its blocking statute to prevent compliance with what it views as unlawful U.S. sanctions. The situation raises concerns about the implications of attacking judicial figures for their roles in upholding international law.",
     questions: [
-      "What implications do you think Ukraine's successful drone attacks will have on the ongoing conflict with Russia?",
-      'How might the use of drones in warfare change military strategies in future conflicts?',
-      'What are the potential risks and consequences of escalating tensions between Russia and Ukraine following these attacks?',
+      "What are your thoughts on the effectiveness of sanctions as a tool for influencing international judicial actions?",
+      "How do you think the U.S. stance on the ICC affects its relationships with other countries, particularly those that are party to the Rome Statute?",
+      "In what ways do you believe the actions taken against ICC judges could impact the pursuit of justice for war crimes globally?",
     ],
   },
   {
-    topic: 'World',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNVhZVVZUTkZacFgwcG1RVE5FVFJERUF4aW1CU2dLTWdhSkk2SnhFUXM=-w280-h168-p-df',
-    title: "Trump's Perspective on the Russia-Ukraine Conflict",
-    summary: 'In a recent meeting with German politician Friedrich Merz, Donald Trump likened the ongoing conflict between Russia and Ukraine to "two young children fighting," suggesting that sometimes it may be better to let them "fight for a while" before intervening. Trump conveyed this analogy during a phone call with Russian President Vladimir Putin, emphasizing the complexity of the situation and the need for a tough stance against both Russia and any aggressors. Merz, who has been in contact with Trump since taking office, presented him with a gift related to Trump\'s German heritage while also urging him to take a leadership role in resolving the conflict in Europe. He referenced the historical significance of D-Day to highlight the importance of ending the current war, drawing parallels to the need for unity and action in the face of aggression.',
+    topic: "World",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iNkNnNHpkVE5PYnpnd1ZqY3dWWGRJVFJDUEF4alhCQ2dLTWc0QkFJQWczYUZhWWZ1RUQ0SmJFdw=-w280-h168-p-df",
+    title: "North Korea's Destroyer Incident and Recovery Efforts",
+    summary:
+      'North Korea has successfully righted a partially capsized destroyer that had run aground during its launch nearly two weeks prior. The incident, described by leader Kim Jong Un as a "criminal act caused by absolute carelessness," led to the arrest of four officials. This destroyer is the second warship introduced by North Korea in a short span, following the launch of the 5,000-ton Choe Hyon destroyer. Efforts to upright the vessel involved manual labor, including the use of tethers and possibly barrage balloons. Satellite imagery revealed damage to the bow section, and the ship remains partially docked at Chongjin port, where the infrastructure for major repairs is lacking. A senior official from the ruling Workers\' Party assured that the destroyer would be fully restored before a significant party congress in late June. Reports indicated that while the hull sustained scratches and some seawater entered the stern, there were no holes in the bottom of the ship.',
     questions: [
-      'What do you think are the potential consequences of allowing conflicts like the Russia-Ukraine war to continue without intervention?',
-      'How do you interpret Trump\'s analogy of the conflict as "two young children fighting"? Do you think it oversimplifies the situation?',
-      'In what ways do you believe international leaders can effectively collaborate to resolve conflicts like the one in Ukraine?',
+      "What implications do you think this incident has for North Korea's naval modernization efforts?",
+      "How might the arrests of the officials involved affect the leadership dynamics within North Korea?",
+      "What are the potential risks and challenges North Korea faces in restoring the destroyer before the upcoming party congress?",
     ],
   },
   {
-    topic: 'World',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNUdla2wwWlhWUlVHMWpPVWRwVFJDWEF4aXlCU2dLTWdhUmdwWUlzZ2M=-w280-h168-p-df',
-    title: 'Humanitarian Crisis in Gaza Amid Ongoing Violence',
-    summary: 'Israeli soldiers opened fire on Palestinian civilians attempting to reach humanitarian aid distribution centers in southern Gaza, resulting in at least 27 deaths, as reported by the Red Cross. This incident follows a recent initiative by the U.S. and the Israel-backed Gaza Humanitarian Foundation (GHF), which aims to deliver aid to Palestinian civilians while preventing Hamas from gaining control or recognition for the assistance. Prior to this shooting, local health officials reported six fatalities and over 50 injuries. The International Committee of the Red Cross noted a significant influx of casualties at its Rafah field hospital, with many suffering from gunshot and shrapnel wounds. The situation is dire, with the UN warning that over two million people in Gaza face starvation due to an 11-week total ban on food and aid shipments by Israel. However, major aid organizations and UN agencies have declined to engage with the GHF, citing violations of humanitarian principles.',
+    topic: "World",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iL0NnNTNVRkZUYW1scFZWaGhObTFSVFJDcUJCaXFCQ2dLTWdrQllJYmt2T1NnOXdB=-w280-h168-p-df",
+    title: "Humanitarian Crisis in Gaza Amid Ongoing Conflict",
+    summary:
+      "Israeli soldiers opened fire on Palestinian civilians approaching humanitarian aid distribution centers in southern Gaza, resulting in at least 27 fatalities, as reported by the Red Cross. The organization has urged the Israel Defense Forces (IDF) to implement measures to better manage foot traffic and enhance safety protocols to prevent further escalation and confusion near military perimeters. Meanwhile, the U.S. and the Israel-backed Gaza Humanitarian Foundation (GHF) have initiated a new system to deliver aid directly to Palestinian civilians, aiming to prevent Hamas from gaining control or recognition for the assistance. The United Nations has raised alarms about the looming famine threatening the majority of Gaza's 2.3 million residents. Additionally, several aid distribution sites were temporarily closed due to overcrowding, highlighting the challenges faced in delivering humanitarian assistance.",
     questions: [
-      "What are the implications of the GHF's approach to delivering aid in Gaza, and how might it affect the relationship between humanitarian organizations and local authorities?",
-      'How can the international community effectively address the humanitarian crisis in Gaza while ensuring that aid reaches those in need without being politicized?',
-      'In what ways can the ongoing violence impact the long-term prospects for peace and stability in the region?',
+      "What measures do you think could be implemented to ensure the safe delivery of humanitarian aid in conflict zones like Gaza?",
+      "How do you feel about the role of international organizations, such as the Red Cross and the UN, in addressing humanitarian crises?",
+      "In your opinion, what are the long-term solutions needed to address the underlying issues contributing to the humanitarian situation in Gaza?",
     ],
   },
   {
-    topic: 'World',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iJ0NnNTBVVmcwV25SUU1sUmFYMU5EVFJERUF4aW1CU2dLTWdPQmNRSQ=-w280-h168-p-df',
-    title: 'Israeli Strikes on Hezbollah Drone Facilities in Lebanon',
-    summary: 'The Israeli military conducted airstrikes targeting alleged Hezbollah drone factories in southern Lebanon and the suburbs of Beirut, resulting in significant smoke rising from the Lebanese capital. In response, Lebanese President Joseph Aoun condemned the strikes as an "aggression" and a violation of international agreements, particularly as they occurred just before a significant religious festival. Prime Minister Nawaf Salam also denounced the attacks, which took place despite a ceasefire established on November 27 aimed at halting over a year of conflict involving Iran-backed Hezbollah. A Hezbollah representative refuted claims of drone production facilities at the targeted sites. Israel has previously attacked this Hezbollah stronghold and maintains a military presence in strategic positions along the Lebanese border, despite plans to withdraw.',
+    topic: "World",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNTZWVzluWTBReWNWZG1VMGxhVFJDUUF4allCQ2dLTWdZcFJJQU1uZ2c=-w280-h168-p-df",
+    title: "Modi Inaugurates Strategic Railway Project in Kashmir",
+    summary:
+      'Indian Prime Minister Narendra Modi recently visited the disputed region of Kashmir to inaugurate a significant railway project that connects the Kashmir Valley to the Indian mainland for the first time. This initiative includes the launch of new "Vande Bharat" trains, which will significantly reduce travel time between Srinagar and Katra from six to seven hours by road to approximately three hours by train. The centerpiece of this project is the Chenab Rail Bridge, a remarkable 1,178-foot-tall steel structure that surpasses the height of the Eiffel Tower. This railway line, considered one of the most challenging in the world, spans 272 kilometers (169 miles) and begins in Udhampur, passing through Srinagar, thereby enhancing connectivity in the region.',
     questions: [
-      "What are the potential implications of Israel's strikes on Hezbollah for regional stability in the Middle East?",
-      "How might the Lebanese government's condemnation of the strikes affect its relationship with Israel and Hezbollah?",
-      'In what ways could the ongoing conflict between Israel and Hezbollah impact civilian life in Lebanon?',
+      "What impact do you think the new railway project will have on the local economy in Kashmir?",
+      "How might this railway project affect the political dynamics between India and Pakistan in the region?",
+      "In what ways do you think improved transportation infrastructure can influence the lives of residents in conflict-affected areas like Kashmir?",
     ],
   },
   {
-    topic: 'World',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iL0NnNUtUVTlUVnpoTGRUQm9SMjVLVFJERUF4aW1CU2dLTWdrQkk0d25FZXVCTVFF=-w280-h168-p-df',
-    title: 'Controversy Over Māori Protest in New Zealand Parliament',
-    summary: "On May 15, 2025, New Zealand lawmakers enacted unprecedented suspensions for three members, including Hana-Rāwhiti Maipi-Clarke, who performed a Māori haka in protest against a proposed law that sought to reinterpret the Treaty of Waitangi, the country’s founding document. The protest, which involved Maipi-Clarke tearing up the bill and chanting the haka alongside fellow lawmakers, sparked a significant debate about the role of Māori culture in Parliament and the appropriateness of the lawmakers' actions. While the suspensions were justified by the government as a response to the lawmakers' approach toward their opponents during the protest, Maipi-Clarke argued that their punishment was disproportionately severe compared to other parliamentary misconduct. The incident highlighted ongoing tensions regarding race relations in New Zealand, with the suspended lawmakers asserting that they were being treated more harshly due to their Māori identity. The debate culminated in a vote where government members supported the suspensions, while opposition lawmakers condemned the actions as an attack on democracy and called for a reevaluation of parliamentary rules to better accommodate Māori cultural expressions.",
+    topic: "World",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNVlRbVphUlU5TVNqaG1jVmhPVFJEY0FSajNBaWdLTWdZQmdwYkpOUWc=-w280-h168-p-df",
+    title: "Changes to EU Flight Delay Compensation Rules",
+    summary:
+      "Under new regulations, travelers experiencing flight delays of four hours will be entitled to compensation of 300 euros (approximately £252) for distances up to 3,500 km, while those facing delays of six hours or more can receive 500 euros (around £421). Airlines have expressed concerns that these rules could lead to significant financial burdens, prompting them to cancel flights rather than risk long delays that disrupt schedules. Despite overcoming opposition from Germany, the majority of EU states reached an agreement on these changes after extensive negotiations. However, the European Consumer Organisation BEUC criticized the new eligibility thresholds, arguing that they would exclude many passengers from compensation, as most delays fall between two and four hours. While the airlines' group Airlines for Europe (A4E) found the changes to complicate matters further, some industry representatives viewed the adjustments as a positive step for consumer rights. The new rules also introduce over 30 additional rights for passengers, including the right to be rerouted promptly and automatic compensation for cancellations within 14 days of departure. French transport minister Philippe Tabarot acknowledged the compromise as a significant advancement in enhancing air passenger service quality.",
     questions: [
-      'What are your thoughts on the appropriateness of the suspensions given the context of the protest?',
-      'How do you think the actions of the Māori lawmakers reflect broader issues of race and representation in New Zealand?',
-      'In what ways could Parliament better accommodate cultural expressions like the haka while maintaining order during proceedings?',
+      "How do you think the new compensation rules will impact the behavior of airlines regarding flight cancellations and delays?",
+      "Do you believe that the changes adequately protect the rights of passengers, or do you think more should be done?",
+      "What are your thoughts on the balance between consumer rights and the operational challenges faced by airlines in implementing these new rules?",
     ],
   },
   {
-    topic: 'World',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iI0NnNDJOM0pvTFdsTk5ITnNRMkZMVFJDZkF4ampCU2dLTWdB=-w280-h168-p-df',
-    title: "Ongoing Investigation into Madeleine McCann's Disappearance",
-    summary: "The search for Madeleine McCann, who went missing 18 years ago in Portugal, resumed this week and concluded on Thursday, with police focusing on an area linked to prime suspect Christian Brueckner. The German national, currently imprisoned for a separate crime, is suspected of murder in connection with Madeleine's case. Authorities utilized a digger to sift through rubble at an abandoned site where Brueckner had stayed during the time of her disappearance. As the investigation remains active, officials have refrained from commenting further. Brueckner is set to be released from prison in September unless new charges are filed against him.",
+    topic: "Business",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNTJVbVJRYjBOS1FXZEpXbEpqVFJDUEF4alhCQ2dLTWdhTmVJNkhLZ2c=-w280-h168-p-df",
+    title: "Tensions Between Elon Musk and the Trump Administration",
+    summary:
+      "Elon Musk has recently sparked controversy by urging lawmakers to reject former President Donald Trump's budget bill, claiming it would significantly increase the deficit. Despite having been a substantial supporter of Trump, donating nearly $300 million to his campaign and serving as an adviser in the Trump administration, Musk has expressed concerns over provisions in the budget that would limit tax credits for electric vehicles (EVs) and residential solar, which are beneficial to Tesla. In a series of posts on social media, Musk asserted his influence in Trump's election victory and criticized the administration's stance on government subsidies. In response, Trump has publicly distanced himself from Musk, suggesting that the billionaire has \"lost his mind\" and indicating that he is considering selling the Tesla Model S he once showcased as a sign of support for Musk. The relationship between Musk and Trump appears to be deteriorating, with both parties exchanging pointed remarks.",
     questions: [
-      "What do you think are the implications of reopening a cold case like Madeleine McCann's after so many years?",
-      'How do you feel about the role of media coverage in high-profile missing person cases?',
-      'What measures do you think should be taken to prevent similar disappearances in the future?',
+      "What do you think are the implications of Musk's call to reject Trump's budget bill for the future of electric vehicle incentives in the U.S.?",
+      "How do you perceive the evolving relationship between influential figures like Musk and political leaders such as Trump?",
+      "In what ways do you think social media has changed the dynamics of political influence and public discourse, as seen in Musk's actions?",
     ],
   },
   {
-    topic: 'Business',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iI0NnNWlWMHhHUjBSd1FUSnpXa3BmVFJERUF4aW1CU2dLTWdB=-w280-h168-p-df',
-    title: 'The Feud Between Elon Musk and Donald Trump',
-    summary: "Elon Musk publicly responded to President Donald Trump's comments regarding their relationship, asserting that without his influence, Trump would have lost the election. In retaliation, Trump suggested he might terminate federal contracts and subsidies for Musk's companies and claimed he had asked Musk to leave his administration, which Musk denied as false. This escalating feud between Musk and Trump led to a significant drop in Tesla Inc.'s stock, marking its largest decline in nearly three months. Meanwhile, Trump reported a positive phone call with Chinese President Xi Jinping, which he claimed would lead to further U.S.-China trade discussions. The stock market reacted to these developments, with the Dow Jones Industrial Average and S&P 500 both experiencing losses, while the NASDAQ Composite also fell.",
+    topic: "Business",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNTJRVTFMWm1ReE9WTnJRV2RSVFJDMkFoalJBeWdLTWdhUkFaN1JIQW8=-w280-h168-p-df",
+    title: "U.S. Job Market Trends in May",
+    summary:
+      "In May, the United States experienced a net addition of 139,000 jobs, surpassing expectations but indicating a continued slowdown in the labor market. The unemployment rate remained stable at 4.2 percent. The healthcare sector led job growth with an increase of 62,000 positions, while the leisure and hospitality industry contributed 48,000 jobs, including 30,000 in food services. Conversely, the federal government saw a reduction of 22,000 jobs, reflecting significant cuts by the Trump administration, which have totaled nearly 60,000 since January. Additionally, the manufacturing sector faced a decline, losing 8,000 jobs, and revisions to job gains in March and April revealed a downward adjustment of 95,000 jobs.",
     questions: [
-      'How do you think the public feud between Musk and Trump will impact their respective companies and political influence?',
-      "What are the potential implications of Trump's threats to cut federal contracts with Musk's companies?",
-      'In what ways do you think social media has changed the dynamics of political and business relationships, as seen in this situation?',
+      "What do you think are the implications of the job losses in the federal government for the overall economy?",
+      "How do you feel about the job growth in the healthcare and leisure sectors compared to the losses in manufacturing?",
+      "What factors do you believe are contributing to the slowdown in the labor market despite the job gains reported?",
     ],
   },
   {
-    topic: 'Business',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iL0NnNVlRa1ZJTjB0UlptUkpRMHRaVFJDZkF4ampCU2dLTWdrQk1JaUdvU1ZGelFF=-w280-h168-p-df',
-    title: '& Gamble Job Cuts Announcement',
-    summary: "Procter & Gamble announced on Thursday its plan to reduce its non-manufacturing workforce by up to 7,000 jobs, which represents approximately 15% of its total non-manufacturing employees, over the next two years. This decision is part of a larger restructuring initiative aimed at improving the company's efficiency. As of June 2024, P&G employed around 108,000 individuals. The company emphasized that the process of employee separations will be conducted with care, support, and adherence to its principles, values, and local laws.",
+    topic: "Business",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNDBNbHBKVlZaRFMyOVpVbUpQVFJDZkF4ampCU2dLTWdhaFJZN3NvUWc=-w280-h168-p-df",
+    title: "Update: Treasury Yields and Stock Performance",
+    summary:
+      "The yield on the 10-year Treasury increased to 4.51%, up from 4.39% late Thursday, while the unemployment rate held steady at 4.2%. In the stock market, the S&P 500 rose by 1.03%, closing at 6,000.36, and the Nasdaq Composite saw a gain of 1.2%, finishing at 19,529.95. The Dow Jones Industrial Average also experienced a significant increase, climbing 443.13 points, or 1.05%, to close at 42,762.87.",
     questions: [
-      "What do you think are the potential long-term impacts of Procter & Gamble's job cuts on its company culture?",
-      "How might these layoffs affect the company's overall performance and market position in the coming years?",
-      'In your opinion, what strategies could P&G implement to support employees who are affected by these job cuts?',
+      "What do you think is driving the increase in Treasury yields despite the stable unemployment rate?",
+      "How do you interpret the recent gains in the stock market indices in relation to economic indicators like unemployment?",
+      "What potential impacts do you foresee on the economy if Treasury yields continue to rise?",
     ],
   },
   {
-    topic: 'Business',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iL0NnNXhjSGd4Um14MFJXbGxORTFKVFJERUF4aW1CU2dLTWdrQlFLQ1hvQ201YUFJ=-w280-h168-p-df',
-    title: 'Impact of Staffing Shortages on U.S. Inflation Data Accuracy',
-    summary: "The U.S. federal government's staffing shortages have led to significant cutbacks in the price checks used to calculate the consumer price index (CPI), a key measure of inflation. The Labor Department has reduced price checks nationwide and completely suspended data collection in cities like Lincoln, Nebraska, and Provo, Utah, due to insufficient personnel. This reduction in data gathering is concerning to economists, who warn that it could result in less accurate cost-of-living reports, potentially leading to increased volatility in regional inflation data. The Bureau of Labor Statistics has stated that while they expect minimal impact on the overall inflation rate, the quality of economic data may be compromised. The ongoing federal hiring freeze and workforce reductions, which have seen a decrease of 26,000 employees since January, are exacerbating these issues. Economists emphasize the importance of accurate inflation data, as it influences Federal Reserve interest rate decisions and cost-of-living adjustments for government programs, ultimately affecting the financial well-being of Americans.",
+    topic: "Business",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNXZXRlZsWm5FelpGODVYM05EVFJERUF4aW1CU2dLTWdhQlFveU9uUWM=-w280-h168-p-df",
+    title: "UBS's Response to Proposed Capital Regulations",
+    summary:
+      "UBS is set to engage with stakeholders to assess and propose regulatory changes that balance costs and benefits effectively. This follows the Swiss government's recent proposal for stringent capital requirements, mandating UBS to increase its core capital by an additional $26 billion after its acquisition of Credit Suisse in 2023. The new regulations will also necessitate that UBS fully capitalizes its foreign subsidiaries and may limit its ability to conduct share buybacks.",
     questions: [
-      'How do you think the reduction in data collection will affect everyday Americans in terms of cost-of-living adjustments and economic stability?',
-      'What potential solutions could the federal government implement to address staffing shortages and improve the accuracy of inflation data?',
-      "In what ways do you believe the current economic climate, including tariffs and inflation concerns, might influence public perception of the government's handling of economic data?",
+      "What do you think are the potential impacts of the new capital requirements on UBS's operations and growth strategy?",
+      "How might these regulations affect the overall stability of the Swiss banking sector?",
+      "In your opinion, what are the advantages and disadvantages of requiring banks to hold higher capital reserves?",
     ],
   },
   {
-    topic: 'Business',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iI0NnNVhiVjlGWmsxaWJXRXliM2x1VFJERUF4aW5CU2dLTWdB=-w280-h168-p-df',
-    title: 'Hooters of America Restructuring Amid Bankruptcy',
-    summary: 'Hooters of America is undergoing a restructuring process as part of a bankruptcy plan that will transfer control of the restaurant chain to a franchise group led by its founder. The company filed for bankruptcy in late March, but it did not initially disclose that closures of locations would occur as part of this process. While the specific locations that will be closed and the timeline for notifying employees remain unclear, CEO Neil Kiefer expressed optimism about the acquisition being finalized later this summer, indicating a hopeful outlook for the future of the Hooters brand.',
+    topic: "Business",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNXBkbEJpWTJsaFlqRTBWMmh1VFJERUF4aW5CU2dLTWdZQk1vWXlGUWs=-w280-h168-p-df",
+    title:
+      "Tensions Between President Trump and Federal Reserve Chairman Powell Over Interest Rates",
+    summary:
+      "In a meeting at the White House, President Donald Trump urged Federal Reserve Chairman Jerome Powell to lower interest rates, arguing that doing so would significantly reduce borrowing costs and improve the economy. Trump expressed frustration with Powell, labeling the Fed's current stance as a \"disaster\" and suggesting that the Fed's reluctance to cut rates was putting the U.S. at an economic disadvantage compared to countries like China. In response, Powell maintained that he would not allow political pressures to influence monetary policy decisions, emphasizing that the Fed's actions would be based solely on economic data and aimed at achieving maximum employment and stable prices. The Fed had previously lowered rates by half a percentage point in September due to declining inflation and a slowdown in the labor market, but Powell reiterated that future policy would depend on incoming economic information.",
     questions: [
-      "What do you think the impact of the closures will be on Hooters' brand image and customer loyalty?",
-      'How do you feel about the trend of restaurant chains filing for bankruptcy and restructuring in the current economic climate?',
-      'What changes do you think the new franchise group might implement to revitalize the Hooters brand?',
+      "How do you think political pressure from the president affects the independence of the Federal Reserve in setting monetary policy?",
+      "What are the potential risks and benefits of lowering interest rates in the current economic climate?",
+      "In your opinion, how should the Federal Reserve balance its mandate for maximum employment and stable prices with external political pressures?",
     ],
   },
   {
-    topic: 'Business',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iL0NnNW1kRkZ2VTBWSGExUklkR0ZSVFJERUF4aW1CU2dLTWdtQlFKSW9HbWxNN1FF=-w280-h168-p-df',
-    title: "Tesla's Declining EV Sales Amidst Competitive Challenges",
-    summary: 'Tesla is experiencing a decline in electric vehicle (EV) sales globally, primarily due to increasing competition in the market. Despite this downturn, Dan Ives, a financial analyst at Wedbush Securities, expressed optimism about CEO Elon Musk\'s renewed focus on addressing these challenges, describing it as "music to the ears of Tesla shareholders." The onus is now on Musk to effectively shift the narrative surrounding the company\'s performance and strategy.',
+    topic: "Business",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iI0NnNWZOMVJKYnpKTlIydFJURVZGVFJDZkF4amlCU2dLTWdB=-w280-h168-p-df",
+    title: "Q1 2025 Earnings Expectations",
+    summary:
+      "As Lululemon approached its Q1 2025 earnings report, analysts anticipated a profit of $2.59 per share alongside quarterly sales of $2.37 billion. The company had previously projected its full-year earnings per share to fall between $14.95 and $15.15. However, it is noteworthy that Lululemon's stock had declined approximately 14% since the beginning of the year, indicating potential concerns among investors regarding the company's performance.",
     questions: [
-      "What do you think are the main factors contributing to Tesla's declining EV sales in the current market?",
-      "How do you feel about Elon Musk's ability to pivot the company's strategy in response to increased competition?",
-      'In your opinion, what steps should Tesla take to regain its competitive edge in the electric vehicle market?',
+      "What factors do you think contributed to Lululemon's stock decline earlier this year?",
+      "How do you feel about the company's earnings projections for Q1 2025 and the full year?",
+      "In your opinion, what strategies could Lululemon implement to improve investor confidence moving forward?",
     ],
   },
   {
-    topic: 'Business',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNUJiVTVDT1RKeWNXaFRkWFJXVFJERUF4aW5CU2dLTWdZQmtJNUVQUVk=-w280-h168-p-df',
-    title: "Rise of Stablecoins and Circle's IPO",
-    summary: "Circle's initial public offering (IPO) coincides with a significant moment for stablecoins in the cryptocurrency market. Stablecoins are digital currencies designed to maintain a stable value by being pegged to another asset, typically the U.S. dollar. As interest in stablecoins grows, there is also an expectation that Congress will pass legislation this year to establish a federal regulatory framework for these assets. Such regulations could facilitate the broader adoption and integration of stablecoins into the financial system.",
+    topic: "Business",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iL0NnNXVaMGhXYmxGVU5tMXdYMVV0VFJDZkF4amlCU2dLTWdrQkFJaUdGR2JSQ0FJ=-w280-h168-p-df",
+    title: "of Tariffs on the U.S. Auto Industry",
+    summary:
+      "In May, a 25% tariff on imported auto parts was implemented, affecting the U.S. auto industry significantly since every car produced in U.S. plants contains some imported components. Anticipating the tariffs, many consumers rushed to purchase vehicles in March, leading to a slight decrease in the average price paid for new cars in May, which fell by 0.2% to $48,334. This decline occurred despite a 0.2% increase in the average sticker price requested by automakers, which rose to $50,527. The majority of cars sold in May had arrived at dealerships before the tariffs took effect, providing some relief to buyers concerned about escalating prices. However, the situation also reflects a potential weakening in consumer demand, as high interest rates and low consumer confidence have led to fewer Americans considering new car purchases. Automakers, wary of upsetting customers and facing the political implications of price hikes, have been cautious in announcing increases despite rising costs, with General Motors projecting a $5 billion impact from the tariffs by year-end.",
     questions: [
-      'How do you think the potential federal regulations for stablecoins will impact their adoption in the mainstream financial market?',
-      'What are the advantages and disadvantages of using stablecoins compared to traditional cryptocurrencies?',
-      "In what ways do you believe Circle's IPO will influence the future of stablecoins and the broader cryptocurrency ecosystem?",
+      "How do you think the tariffs on auto parts will affect the long-term pricing strategies of automakers in the U.S.?",
+      "What impact do you believe consumer confidence and interest rates have on the auto industry, especially in light of recent tariff changes?",
+      "In your opinion, how should automakers balance the need to cover rising costs with the risk of alienating customers through price increases?",
     ],
   },
   {
-    topic: 'Business',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNVJZV2h6TmtVMGVraEpXaTA1VFJDUUF4allCQ2dLTWdZQllJUVRVUVE=-w280-h168-p-df',
-    title: 'Changes in Trade Deficit Due to Import and Export Fluctuations',
-    summary: 'The recent data reveals a notable reduction in the trade deficit, primarily driven by a substantial decline in imports, which fell by 16.3 percent to $351.0 billion. In contrast, exports experienced a positive shift, increasing by 3.0 percent to reach $289.4 billion. This combination of decreased imports and increased exports has contributed to a significantly smaller trade deficit.',
+    topic: "Business",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iI0NnNUVRamN6T1VZdGFXVnplbVpvVFJEVkFSakFBaWdLTWdB=-w280-h168-p-df",
+    title: "Acquires JOANN: A New Chapter for Craft Retail",
+    summary:
+      'Michaels has announced the acquisition of JOANN, allowing JOANN customers to continue enjoying their favorite brands while benefiting from an expanded selection of fabric, sewing, and yarn products. This strategic move is aimed at meeting the increasing demand from both new and existing customers. JOANN, which has been a staple for crafters since its inception in 1943, has faced operational difficulties in recent years, including sluggish consumer demand and inventory shortages. As part of the acquisition, Michaels will incorporate JOANN\'s "Big Twist" labels into its offerings, which will be available in stores and online later this year. The financial details of the acquisition remain undisclosed, but it marks a significant shift in the craft retail landscape.',
     questions: [
-      'What do you think are the main factors contributing to the sharp decline in imports?',
-      'How might the increase in exports impact the overall economy in the long term?',
-      'What implications do you think this change in the trade deficit has for international trade relations?',
+      "How do you think Michaels' acquisition of JOANN will impact the craft community and its consumers?",
+      "What challenges do you believe JOANN faced that led to its acquisition, and how might Michaels address these issues?",
+      "In what ways do you think the expansion of fabric and yarn offerings will influence the shopping experience for crafters at Michaels?",
     ],
   },
   {
-    topic: 'Business',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iMkNnNTNUR2xKWDFWMFkxTlJkRXhGVFJERUF4aW5CU2dLTWdzQkVJYkRIaWhzUnZvYVJR=-w280-h168-p-df',
-    title: "Anticipation Surrounding Broadcom's Earnings Report",
-    summary: "Investors are anticipating a significant movement in Broadcom (AVGO) stock, with options pricing indicating an expected fluctuation of approximately 6.4% in either direction following the company's upcoming earnings report. Scheduled for release after the market closes on Thursday, Broadcom's fiscal second-quarter results are expected to reflect increased revenue and profits, largely driven by the rising demand for AI chips. The company reported $4.4 billion in AI revenue for the quarter, crediting this growth to its networking components that facilitate the connection of complex server clusters.",
+    topic: "Business",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNXVSak0yWkhaSWRUVmhRbnBhVFJEVEF4aVFCU2dLTWdhMUZJYVBFUXM=-w280-h168-p-df",
+    title: "Impact of RBI's Repo Rate Cut on Borrowing and Markets",
+    summary:
+      "The Reserve Bank of India's recent decision to cut the repo rate by 50 basis points to 5.5 percent has notable implications for both depositors and the broader economy. This reduction is expected to lower borrowing costs for companies and consumers, facilitating increased investment and spending. Following the announcement, the stock market responded positively, with the BSE Sensex rising by 746.95 points to reach 82,188.99, and the Nifty 50 gaining 252.15 points. As banks adjust their lending rates in response to the RBI's move, the potential for economic growth through enhanced borrowing becomes more pronounced.",
     questions: [
-      "How do you think Broadcom's performance in the AI sector will impact its stock price in the long term?",
-      'What factors do you believe contribute to the volatility in stock prices around earnings reports?',
-      'In your opinion, how significant is the demand for AI chips in shaping the future of technology companies like Broadcom?',
+      "How do you think the RBI's repo rate cut will affect consumer spending in the coming months?",
+      "What are the potential risks associated with lower borrowing costs for companies?",
+      "In your opinion, how should depositors adjust their financial strategies in light of the RBI's decision?",
     ],
   },
   {
-    topic: 'Technology',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNHdlbWhsV0hSdU5YaFJZVkZ0VFJERUF4aW1CU2dLTWdZWmc0NXJ0UVU=-w280-h168-p-df',
-    title: 'The Launch of the Nintendo Switch 2',
-    summary: 'The Nintendo Switch 2 was released for purchase at midnight ET, quickly selling out at major retailers such as Walmart and GameStop. Among the accessories, the Nintendo Switch 2 Pro Controller has garnered significant anticipation and is still widely available. The launch faced delays in preorders earlier in the year due to the announcement of "reciprocal tariffs" by U.S. President Donald Trump, which affected many countries globally.',
+    topic: "Business",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iL0NnNVZOV3RsYm1SS01FTjBlVlZ5VFJDSEF4aVBCaWdLTWdrQkFJeXVzZVhJQVFN=-w280-h168-p-df",
+    title: "Circle's Ambitious Stablecoin Network",
+    summary:
+      "Circle is developing a comprehensive stablecoin network aimed at becoming the largest and most widely utilized in the world. Through its regulated affiliates, the company issues two primary stablecoins: USDC, which is pegged to the US dollar, and EURC, pegged to the euro. This initiative positions Circle at the forefront of the stablecoin market, emphasizing its commitment to regulatory compliance and financial stability.",
     questions: [
-      'What do you think contributed to the rapid sellout of the Nintendo Switch 2 at retailers?',
-      'How do you feel about the impact of tariffs on the gaming industry and product availability?',
-      'What features or improvements are you hoping to see in the Nintendo Switch 2 compared to its predecessor?',
+      "What do you think are the potential benefits of having a widely used stablecoin network like Circle's for the global economy?",
+      "How do you feel about the regulatory aspects of stablecoins, and do you think they are necessary for consumer protection?",
+      "In your opinion, what challenges might Circle face as it seeks to establish its stablecoin network as the largest in the world?",
     ],
   },
   {
-    topic: 'Technology',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iJ0NnNURXbVpuZDJZMGEzVjVWM1JXVFJEaUFSamNBU2dLTWdPTll4SQ=-w280-h168-p-df',
-    title: 'Essential Accessories for the Nintendo Switch 2',
-    summary: "Before purchasing accessories for the Nintendo Switch 2, it's crucial to understand the available options. Belkin offers a range of accessories, including a thinner case priced at $29.99 that lacks battery and charging features, a $29.99 tempered glass screen protector that reduces blue light exposure, and a $24.99 anti-reflective glass screen protector. Additionally, it's important to note that the Switch 2 is compatible only with microSD Express cards, supporting storage capacities of up to 2TB.",
+    topic: "Technology",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNXlOVTFDUXpWaE5sWjBlSFpmVFJEZ0F4aUFCU2dLTWdZQkE1U011UVk=-w280-h168-p-df",
+    title: "The Popularity of the Nintendo Switch 2 and Its Accessories",
+    summary:
+      'The Nintendo Switch 2 console has quickly sold out at GameStop Canada, indicating a strong demand among consumers. Among the accessories, the Nintendo Switch 2 Pro Controller is expected to be particularly sought after, featuring significant enhancements over the previous model. Notable upgrades include the addition of a headphone jack, a new "C" button, and customizable back buttons, making it an appealing choice for gamers looking to enhance their experience.',
     questions: [
-      'What features do you think are most important when choosing accessories for the Nintendo Switch 2?',
-      "How do you feel about the pricing of Belkin's accessories compared to other brands?",
-      'Do you think the blue light filtering feature in the screen protector is worth the investment?',
+      "What features of the Nintendo Switch 2 Pro Controller do you think will have the biggest impact on gameplay?",
+      "How do you feel about the trend of gaming consoles selling out quickly upon release?",
+      "In your opinion, what factors contribute to the high demand for gaming accessories like the Switch 2 Pro Controller?",
     ],
   },
   {
-    topic: 'Technology',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNHlSMlp0TlRWYVNUSjJNWHBPVFJDckF4aUFCU2dLTWdZWmM1SkxMUWM=-w280-h168-p-df',
-    title: 'Sony Unveils Project Defiant: A New Wireless Fight Stick for Gamers',
-    summary: 'Sony Interactive Entertainment has introduced Project Defiant, its first wireless fight stick designed specifically for PlayStation 5 and PC gamers. This innovative controller features toolless interchangeable restrictor gates in square, circle, and octagon shapes, along with buttons equipped with mechanical switches and a touch pad similar to that of the DualSense wireless controller. For gamers on the move, Project Defiant comes with a sleek and sturdy Sling Carry Case that includes a lever gap to protect the digital stick during transport. Additionally, the controller offers a storage compartment for restrictor gates and the PS Link USB adapter, enhancing convenience and portability. Project Defiant is set to launch in 2026.',
+    topic: "Technology",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNU9SR3hPZVZOVVRVWkNPVWxKVFJERUF4aW1CU2dLTWdZcFpZck9MUVk=-w280-h168-p-df",
+    title: "Anticipating iOS 26 at WWDC 2025",
+    summary:
+      "At WWDC 2025, it is highly anticipated that Apple will unveil the 19th version of its mobile operating system, iOS 26. Francisco Jeronimo, VP of devices at IDC, expressed excitement about the potential new features and advancements related to Apple Intelligence that may be introduced. This follows the previous year's announcement of iOS 18 and the initial introduction of Apple Intelligence, along with updates to Siri that have yet to be implemented.",
     questions: [
-      'What features of the Project Defiant do you think will be most appealing to gamers?',
-      'How do you feel about the trend of specialized controllers like fight sticks in the gaming industry?',
-      'What impact do you think the portability of Project Defiant will have on competitive gaming events?',
+      "What specific features do you hope to see in iOS 26 that would enhance user experience?",
+      "How do you think Apple Intelligence will change the way we interact with our devices?",
+      "What are your thoughts on the updates to Siri that were announced last year but have not yet been released?",
     ],
   },
   {
-    topic: 'Technology',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNXJhV0pqYTNsbFYyUnpkMlUzVFJDZ0F4amlCU2dLTWdZaGM1Sk1zUVk=-w280-h168-p-df',
-    title: 'Google Unveils Gemini 2.5 Pro for Developers',
-    summary: "Google has introduced a preview of Gemini 2.5 Pro, showcasing improved features designed specifically for developers. This latest iteration aims to enhance the development experience by providing advanced tools and capabilities, allowing developers to create more efficient and innovative applications. The release reflects Google's commitment to supporting the developer community with cutting-edge technology.",
+    topic: "Technology",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNVdRbEZLUm5keWNuWmpTSEpMVFJERUF4aW1CU2dLTWdhaFZJNk9KUWc=-w280-h168-p-df",
+    title: "Challenges in Lunar Landing: The Case of Ispace's Resilience",
+    summary:
+      "Ispace's lunar lander, Resilience, attempted a moon landing around 3:17 p.m., but preliminary data indicated that its laser rangefinder faced delays in accurately measuring the distance to the lunar surface. This malfunction hindered the lander's ability to decelerate for a safe touchdown. In contrast, another private lunar lander, Blue Ghost, developed by Texas-based Firefly Aerospace, successfully landed on the moon on March 2. Ispace is part of a growing sector of companies aiming to provide commercial lunar transportation services for various payloads, including scientific instruments and technology demonstrations. Among its cargo was a unique Swedish-style red cottage, named the Moonhouse, created by Mikael Genberg, intended for placement on the lunar surface. Historically, only five countries—Russia, the U.S., China, India, and Japan—have achieved successful robotic lunar landings.",
     questions: [
-      'What specific features of Gemini 2.5 Pro do you think will have the most significant impact on developers?',
-      'How do you see the advancements in Gemini 2.5 Pro influencing the future of application development?',
-      "In what ways do you think Google’s focus on developer tools compares to other tech companies' approaches?",
+      "What do you think are the implications of private companies entering the lunar transportation market?",
+      "How do you feel about the challenges faced by Ispace's Resilience in its landing attempt?",
+      "What significance do you think the Moonhouse project holds for future lunar exploration and tourism?",
     ],
   },
   {
-    topic: 'Technology',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iJ0NnNVdTbUZNYzNGRmNrVnhUblJ5VFJDR0F4aVNCaWdLTWdNRlF3QQ=-w280-h168-p-df',
-    title: "ispace's Resilience Lunar Lander Mission",
-    summary: "ispace's Resilience is the company's second lunar lander, following the recent successful lunar landing of Firefly Aerospace's Blue Ghost, which launched on the same SpaceX rocket. Resilience is equipped with a module to test algae-based food production, a deep-space radiation monitor, and a water electrolyzer experiment aimed at generating hydrogen and oxygen on the Moon. The mission has three backup landing sites prepared to accommodate any necessary changes in landing conditions, which could affect the timing of the landing. Notably, only five countries have successfully achieved robotic lunar landings: Russia, the U.S., China, India, and Japan. Additionally, the mission includes a unique artistic element, featuring a small Swedish-style cottage, known as the Moonhouse, created by Mikael Genberg, which will be placed on the lunar surface.",
+    topic: "Technology",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNXJhV0pqYTNsbFYyUnpkMlUzVFJDZ0F4amlCU2dLTWdZaGM1Sk1zUVk=-w280-h168-p-df",
+    title: "Google Unveils Gemini 2.5 Pro with Enhanced Developer Features",
+    summary:
+      "Google has introduced a preview of Gemini 2.5 Pro, showcasing significant enhancements aimed at developers. The updated model has achieved notable performance gains, reflected in a 24-point increase in its Elo score on LMArena, placing it at a competitive 1470, and a 35-point rise on WebDevArena, where it now leads with a score of 1443. Additionally, Gemini 2.5 Pro maintains its dominance in coding benchmarks, such as Aider Polyglot, and excels in various assessments that evaluate math, science, knowledge, and reasoning abilities, including GPQA and Humanity’s Last Exam.",
     questions: [
-      'What do you think are the potential benefits of testing algae-based food production on the Moon?',
-      'How do you feel about the artistic inclusion of the Moonhouse in the lunar mission?',
-      'What challenges do you think ispace might face during the landing of Resilience?',
+      "What do you think are the implications of Gemini 2.5 Pro's performance improvements for developers in the tech industry?",
+      "How do you see the advancements in AI models like Gemini 2.5 Pro impacting the future of coding and software development?",
+      "In what ways do you think the enhanced capabilities of Gemini 2.5 Pro could influence the learning and assessment of technical skills?",
     ],
   },
   {
-    topic: 'Technology',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iL0NnNVlNREZmUzJkb1lYVnVTMVJVVFJDZkF4ampCU2dLTWdtQllKQ0R0U1l0S3dJ=-w280-h168-p-df',
-    title: 'Anticipation of an Affordable Nvidia GPU',
-    summary: 'Currently, Nvidia has not confirmed the existence of the RTX 5050 or provided any details about it, leaving the gaming community in a state of speculation. However, there is a growing demand for a budget-friendly graphics processing unit (GPU) for PC gaming, as many gamers are seeking more accessible options in the market. The potential introduction of the RTX 5050 could address this need, but until Nvidia makes an official announcement, all discussions remain speculative.',
+    topic: "Technology",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNU5iVE4wVW1aTlFXaHlMWEpzVFJDZkF4ampCU2dLTWdZdGRJeVByUVU=-w280-h168-p-df",
+    title: "Samsung Galaxy Watch 7: A Top Choice for Smartwatch Buyers",
+    summary:
+      "The Samsung Galaxy Watch 7 stands out as an excellent option for those in the market for a new smartwatch. With its advanced features, sleek design, and user-friendly interface, it caters to a wide range of needs and preferences, making it a compelling choice for both tech enthusiasts and casual users alike.",
     questions: [
-      'What features do you think would be essential for a budget-friendly GPU like the rumored RTX 5050?',
-      'How do you feel about the current state of the GPU market in terms of affordability and availability?',
-      'What impact do you think a new affordable GPU from Nvidia would have on the gaming community?',
+      "What features of the Samsung Galaxy Watch 7 do you find most appealing, and why?",
+      "How do you think the Galaxy Watch 7 compares to other smartwatches on the market?",
+      "In your opinion, what factors should someone consider when choosing a smartwatch?",
     ],
   },
   {
-    topic: 'Technology',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNHpiVmxIU2kxb2RtUjNXa2RMVFJDa0F4amFCU2dLTWdZcFJZck5wUVU=-w280-h168-p-df',
-    title: "Samsung's One UI 8 Beta Update and Security Enhancements",
-    summary: 'In May, Samsung unexpectedly launched the first One UI 8 beta, based on Android 16, for the Galaxy S25, with the official release anticipated soon. The upcoming One UI 8 Beta 2 update is expected to remove the predictive back gesture feature, which allows users to preview the previous screen when swiping back. Recent reports suggest that this feature may already be absent in the latest beta build, U4ZYF1, which also updates the bootloader version. The June 2025 update is set to roll out soon, providing essential security patches that address 36 vulnerabilities identified by Google, along with 19 additional fixes from Samsung. This update will be available to users in Poland and India before the broader One UI 8 Beta release. Samsung has also revised its update schedule, indicating that 38 Galaxy devices will receive monthly security updates, while 88 will get quarterly updates, ensuring ongoing protection against security threats.',
+    topic: "Technology",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNUlabFIxVFRWdk5sTjZXV3A1VFJDSEF4aVBCaWdLTWdZbGRZN09NUVk=-w280-h168-p-df",
+    title: "Upcoming Features in watchOS 26",
+    summary:
+      "A recent report from 9to5Mac suggests that the forthcoming watchOS 26 may introduce a highly anticipated feature for Apple Watch users: third-party Control Center widgets. This enhancement is expected to incorporate AI capabilities driven by Apple Intelligence, although the smartwatch itself will not directly execute the AI models. This development could significantly expand the functionality and customization options available to users of the best Apple Watches.",
     questions: [
-      'What are your thoughts on the removal of the predictive back gesture feature in the upcoming One UI 8 Beta update?',
-      "How do you feel about Samsung's approach to security updates for its devices?",
-      'Do you think the gradual rollout of updates is beneficial for users, or does it create frustration?',
+      "How do you think third-party Control Center widgets will change the way we use Apple Watches?",
+      "What potential benefits do you see in integrating AI capabilities into watchOS 26?",
+      "Are there any specific third-party apps you hope will take advantage of this new feature?",
     ],
   },
   {
-    topic: 'Technology',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iMkNnNDVhbEZhZWxZd1NYUkRhMGd5VFJDZkF4ampCU2dLTWdzQlFJeGlQaVhCSzFvTGJB=-w280-h168-p-df',
-    title: 'Enhancements for Nintendo Switch 2 and Parental Controls',
-    summary: "The recent update has introduced support for the Nintendo Switch 2 consoles, enhancing the gaming experience with new features. Among these improvements are customizable settings for GameChat, allowing for better communication during gameplay. Additionally, the update includes tools designed to assist parents in supervising their children's gaming sessions, ensuring a safer and more controlled environment for young players.",
+    topic: "Technology",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNU9NbmhPVFhSUFprRjFMWEZNVFJDZkF4ampCU2dLTWdhSmNaUUtNUWM=-w280-h168-p-df",
+    title: "The Unique Porsche 963 RSP: A One-Off Masterpiece",
+    summary:
+      "Porsche has clarified that the 963 RSP is a unique, non-homologated model, designed as a special one-off rather than a standard addition to their lineup. This vehicle features a raised ride height and soft Multimatic DSSV dampers for a more comfortable driving experience. Visually, it stands out with a distinctive Martini Silver color reminiscent of the iconic 917, marking it as the only 963 to be painted rather than wrapped. Notably, Roger Penske, the esteemed owner of Team Penske, expressed his delight in driving the 963 RSP, describing it as more forgiving and comfortable compared to the standard 963. Following its recent race, the car will be displayed at the Porsche Museum in Stuttgart before heading to the Goodwood Festival of Speed, where it will be showcased alongside the legendary 917.",
     questions: [
-      'What do you think about the new parental control features for the Nintendo Switch 2?',
-      'How do you feel the addition of GameChat settings will impact the gaming experience for players?',
-      "In your opinion, how important is it for gaming consoles to provide tools for parents to monitor their children's gameplay?",
+      "What do you think makes the Porsche 963 RSP a special one-off compared to other models in the Porsche lineup?",
+      "How do you feel about the significance of the color choice for the 963 RSP in relation to Porsche's racing heritage?",
+      "In what ways do you think the experience of driving a unique car like the 963 RSP differs from driving a standard production vehicle?",
     ],
   },
   {
-    topic: 'Technology',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNXhVakpYWmt0QlV6RXljRXBIVFJEckFoaUZCU2dLTWdZRkVZeG1HZ2c=-w280-h168-p-df',
-    title: 'Issues Surrounding the Launch of the Nintendo Switch 2',
-    summary: "The launch of the Nintendo Switch 2 has been marred by significant issues, particularly concerning packaging and demand management. Many customers, including the author and their friends, received their consoles with staple holes in the screens due to poor packaging practices, which placed the screen too close to the top of the box. This oversight has led to frustration among users, especially as some pre-orders were canceled just hours before the official launch, highlighting Nintendo's underestimation of demand. The situation has sparked discussions on social media about how better packaging could have prevented such damage. Additionally, the Nintendo Switch 2 + Mario Kart World Bundle is available for $499.99, but the chaos surrounding the launch has overshadowed its release.",
+    topic: "Technology",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iI0NnNUpWa040U2pkSllVVk1XWG95VFJDZkF4ampCU2dLTWdB=-w280-h168-p-df",
+    title: "Upcoming Video Game Releases and Announcements",
+    summary:
+      "In a recent State of Play presentation, several exciting video game announcements were made, highlighting upcoming titles for the PlayStation 5. Notably, Nioh 3 is set for release in early 2026, with a demo currently available for players. The Ivalice Chronicles will feature two versions of Final Fantasy Tactics, offering both a remastered edition and a classic version. IO Interactive introduced 007 First Light, a re-imagining of James Bond's origin story, also slated for 2026. Other highlights include a new gameplay trailer for Metal Gear Solid Delta: Snake Eater, the announcement of Lumines Arise for Fall 2025, and a VR adaptation of the Thief series titled Legacy of Shadow. Additionally, Grasshopper Manufacture revealed Romeo Is A Dead Man, a new ultra-violent action game, while Digital Eclipse and Warner Bros. Games announced Mortal Kombat: Legacy Kollection. Sony Interactive Entertainment introduced Project Defiant, a wireless fight stick for PS5 and PC, and Ninja Gaiden Ragebound is set to launch on July 21. Other upcoming titles include Bloodstained: The Scarlet Engagement, Sea of Remnants, and the RPG Digimon Story: Time Stranger, with Silent Hill f scheduled for release on September 25, 2025. Sucker Punch also teased a special episode for Ghost of Yōtei coming in July 2025.",
     questions: [
-      'What do you think Nintendo could have done differently to prevent the packaging issues with the Switch 2?',
-      'How do you feel about the impact of high demand on the availability of new gaming consoles?',
-      'In your opinion, what are the most important factors for a successful console launch?',
+      "Which upcoming game are you most excited about and why?",
+      "How do you feel about the trend of remastering classic games versus creating new titles?",
+      "What features do you think are essential for a successful gaming experience in the new PS5 titles?",
     ],
   },
   {
-    topic: 'Entertainment',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNVljVXcwY1ZSamIwbFlaWGhXVFJERUF4aW1CU2dLTWdZVko2QkpsZ28=-w280-h168-p-df',
-    title: 'Legal Proceedings Against Sean Combs: Allegations of Assault and Trafficking',
-    summary: "Sean Combs is facing federal charges, including racketeering conspiracy and sex trafficking, to which he has pleaded not guilty. Testimony from multiple accusers has emerged, including a woman identified as Mia, who claimed that Combs threatened to disclose damaging information about her following alleged sexual assaults. Another accuser, Bongolan, has filed a civil suit against Combs for $10 million, alleging that he held her over a balcony and caused her physical harm, as evidenced by photos showing her injuries. During the court proceedings, Bongolan recounted Combs' intimidating remarks, while Mia detailed her experiences as Combs' personal assistant, alleging repeated sexual assaults. The case highlights serious allegations of abuse and raises significant questions about accountability and the treatment of survivors.",
+    topic: "Entertainment",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iI0NnNXZkR3g2TVRnM1gwNTRUWEEwVFJDZkF4ampCU2dLTWdB=-w280-h168-p-df",
+    title: "Testimony in Sean Combs' Trial Reveals Disturbing Allegations",
+    summary:
+      'Jane\'s testimony in Sean "Diddy" Combs\' ongoing trial has been emotionally charged and revealing, expected to continue into the following week. During her statements, she recounted distressing experiences from alleged "hotel nights" with Combs, which she described as lasting from 12 hours to over three days, and detailed the health issues she suffered afterward, including chronic back pain and recurrent infections. Jane also testified about being asked by Combs to transport drugs from California to Miami, expressing her anxiety over smuggling pills on commercial flights. The trial, which began on May 12, includes serious charges against Combs, such as racketeering conspiracy and sex trafficking, with potential life imprisonment if he is convicted. Other witnesses, including a former personal assistant who used the pseudonym "Mia," have also come forward with allegations of sexual assault against Combs, further complicating the case. **Questions:**',
     questions: [
-      "What are your thoughts on the impact of high-profile cases like Sean Combs' on public awareness of sexual assault and trafficking?",
-      'How do you think the legal system can better support survivors of sexual violence during trials?',
-      'In what ways do you believe societal attitudes towards victims of sexual assault are changing, and what more needs to be done?',
+      "What impact do you think the testimonies of survivors like Jane and Mia will have on public perception of the trial and the allegations against Combs?",
+      "How do you feel about the legal system's handling of sexual assault cases, particularly in high-profile situations like this one?",
+      "What steps do you think should be taken to support survivors of sexual assault in the wake of such trials?",
     ],
   },
   {
-    topic: 'Entertainment',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iI0NnNVlNa1YzVFhKeWNURm1WVUpVVFJEX0FoaXBCU2dLTWdB=-w280-h168-p-df',
-    title: 'Remembering George Wendt: A Legacy of Kindness and Influence',
-    summary: 'George Wendt, best known for his role on "Cheers," has passed away, leaving behind a legacy of warmth and kindness that resonated with those who knew him. Fellow actor Jason Sudeikis expressed his devastation at Wendt\'s death, highlighting the profound influence Wendt had on his career and the acting community, particularly for those from the Midwest. Sudeikis fondly recalled Wendt\'s dedication to family and his roots in Chicago and Kansas City. "Cheers" co-star Rhea Perlman also remembered him as the sweetest and kindest man she had ever met. Wendt is survived by his wife, Bernadette Birkett, and their three children, as well as two stepsons. The family has requested privacy during this difficult time, as they mourn the loss of a beloved husband, father, and friend.',
+    topic: "Entertainment",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNWFOSGRGZUdjME5YSlpWRUk1VFJERUF4aW1CU2dLTWdZMWdwUVVNUWM=-w280-h168-p-df",
+    title: "Billy Joel's Struggles and Revelations",
+    summary:
+      "On May 23, music legend Billy Joel canceled his upcoming concerts following a diagnosis of normal pressure hydrocephalus, a brain disorder that has affected his hearing, vision, and balance. Shortly after, on June 4, the first half of his documentary \"Billy Joel: And So It Goes\" premiered at the Tribeca Film Festival, where Joel candidly discussed his past, including two suicide attempts linked to an affair with a bandmate's wife. He reflected on the emotional turmoil he experienced during his early 20s, including feelings of guilt and depression that led him to contemplate ending his life. Despite the pain and chaos of his past, Joel acknowledged the importance of friendship, crediting his former bandmate Jon Small with saving his life during a particularly dark time. In a poignant message, he expressed that while aging can be difficult, it is preferable to the alternative. The documentary sheds light on Joel's struggles and the complexities of love, loss, and redemption. **Questions:**",
     questions: [
-      'What qualities do you think made George Wendt such a beloved figure among his peers and fans?',
-      "How do you think Wendt's Midwestern roots influenced his acting career and the characters he portrayed?",
-      'In what ways do you believe the entertainment industry can honor the legacy of actors like George Wendt?',
+      "How do you think Billy Joel's experiences with mental health and relationships have shaped his music and public persona?",
+      "What role do you believe friendship plays in overcoming personal struggles, as illustrated by Joel's relationship with Jon Small?",
+      "How can society better support individuals dealing with mental health issues and suicidal thoughts, based on the insights shared in Joel's story?",
     ],
   },
   {
-    topic: 'Entertainment',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNXNSelUzU204MWVsWjRTVE5MVFJDb0FSaXNBaWdCTWdZbFJwVHNJUWc=-w280-h168-p-df',
-    title: 'Upcoming 78th Annual Tony Awards Highlights',
-    summary: 'The 78th Annual Tony Awards, set to air on June 8, 2025, showcase a competitive landscape in various categories. Notably, Audra McDonald is poised to extend her record for the most Tony acting wins, currently at six, with a strong chance of winning her seventh for her performance in "Gypsy." The season has also seen the off-Broadway hit "Oh, Mary!" by Cole Escola, which has garnered significant acclaim and is favored to win in its category. In the Best Performance by an Actress in a Leading Role in a Play category, Sarah Snook is expected to win for "The Picture of Dorian Gray," although Laura Donnelly\'s performance in "The Hills of California" is also highly regarded. The awards will feature a variety of nominees across categories, including Best Musical and Best Revival of a Musical, highlighting a successful year for new productions.',
+    topic: "Entertainment",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNU1RbVZ6UmxwQk1DMUpOM0IxVFJDSEF4aVBCaWdLTWdhOU01aFNIUWs=-w280-h168-p-df",
+    title: 'Sabrina Carpenter\'s "Manchild": A Reflection on Young Adult Life',
+    summary:
+      'Sabrina Carpenter\'s new single "Manchild," released on June 5, captures the complexities of young adult relationships with a blend of humor and introspection. The song, which Carpenter describes as embodying a "loving eye roll," reflects her experiences and observations about the challenges of navigating love and self-care in her twenties. Written during a memorable collaboration with friends, the track serves as a soundtrack to her youthful adventures and emotional growth. Accompanied by a music video set to premiere shortly after the song\'s release, "Manchild" invites listeners to embrace the carefree spirit of summer while also addressing the frustrations of dealing with immature partners. Despite her recent breakup with actor Keoghan, Carpenter remains focused on her music and personal journey, hinting at the wealth of inspiration her experiences provide.',
     questions: [
-      'What do you think makes a performance worthy of a Tony Award?',
-      "How do you feel about the representation of new musicals in this year's nominations?",
-      'Which category are you most excited to see the results for, and why?',
+      "How do you think Sabrina Carpenter's experiences as a young adult influence her songwriting?",
+      'In what ways do you relate to the themes of self-care and relationship dynamics presented in "Manchild"?',
+      "What do you think makes a song resonate with listeners during their own life experiences, as Carpenter suggests with her new single?",
     ],
   },
   {
-    topic: 'Entertainment',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iI0NnNXRSM2hyTjBSbE16WnFXV2RCVFJES0FoaktBaWdLTWdB=-w280-h168-p-df',
-    title: 'Paige DeSorbo Announces Departure from Summer House',
-    summary: "Paige DeSorbo has announced her departure from the reality show Summer House after seven seasons, expressing gratitude for the unforgettable experiences and friendships she has formed during her time on the show. Reflecting on her growth over the years, she acknowledged that it is time to close this chapter of her life, especially as she feels she no longer fits the original concept of the show. DeSorbo joined the cast in season three alongside her friend Hannah Berner, who left after season five. In addition to her role on Summer House, she has co-hosted the podcast Giggly Squad since October 2020. DeSorbo's evolving career and lifestyle have influenced her decision to leave, particularly as it contributed to her breakup with Southern Charm's Craig Conover, who was uncomfortable with her upcoming podcast tour. She reassured fans that they have not seen the last of her and expressed her heartfelt thanks to her castmates, fans, and NBCUniversal.",
+    topic: "Entertainment",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNXFTREZSWlVWeVZFVk9iVWhFVFJDRkF4aV9CQ2dLTWdhcFFveU9vUVk=-w280-h168-p-df",
+    title: "Rae's Debut Album Release",
+    summary:
+      'Addison Rae has officially released her debut album titled "Addison." This marks a significant milestone in her career as she transitions from social media influencer to a music artist. The album showcases her artistic evolution and aims to resonate with her growing fanbase, highlighting her talents beyond her initial fame on platforms like TikTok.',
     questions: [
-      "What do you think are the main reasons behind Paige DeSorbo's decision to leave Summer House?",
-      "How do you feel about the impact of reality TV on personal relationships, as seen in DeSorbo's breakup with Craig Conover?",
-      "In what ways do you think DeSorbo's departure will affect the dynamics of the Summer House cast moving forward?",
+      "What are your thoughts on Addison Rae's transition from social media influencer to music artist?",
+      "How do you think her background in social media has influenced her music style and audience reception?",
+      "What do you expect from her future projects after this debut album?",
     ],
   },
   {
-    topic: 'Entertainment',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iMkNnNDFTbkpCZWtOQ01uTnJVek5hVFJERUF4aW1CU2dLTWdzVkFvYW5FcXMxNC1wY1BR=-w280-h168-p-df',
-    title: "Billy Joel's Health Update and Documentary Premiere",
-    summary: '"Billy Joel: And So It Goes," a two-part documentary, premiered at the Beacon Theatre in New York, coinciding with the start of the Tribeca Film Festival. Recently, Joel revealed that he has been diagnosed with normal pressure hydrocephalus (NPH), a brain disorder that has led him to cancel all upcoming concerts and a major tour planned for the next year. He expressed gratitude for the excellent medical care he is receiving and emphasized his commitment to prioritizing his health. NPH occurs when cerebrospinal fluid accumulates in the skull, exerting pressure on the brain. Under medical advice, Joel is undergoing specific physical therapy and has been instructed to refrain from performing during his recovery. Howard Stern provided an update on Joel\'s condition, reassuring fans that the musician is "not dying" and is simply managing some health issues. Joel himself conveyed a light-hearted perspective on aging, stating, “Getting old sucks, but it’s still preferable to getting cremated.”',
+    topic: "Entertainment",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iI0NnNW9jRlY1VTFsclNpMVpha1pZVFJEX0FoaXBCU2dLTWdB=-w280-h168-p-df",
+    title: "Paige DeSorbo Announces Departure from 'Summer House'",
+    summary:
+      'Paige DeSorbo has announced her decision to leave the reality show "Summer House" after seven seasons. In her heartfelt message, she expressed gratitude for the memories, friendships, and opportunities the show has provided her, acknowledging both the good and challenging moments. Paige emphasized that it is time for her to close this chapter of her life, while assuring fans and castmates that they will not be seeing the last of her. She reflected on the rewarding experiences she had on the show, filled with laughter and drama, and hinted at future endeavors. Fellow cast member Lexi also shared her thoughts, indicating that the summer was not what she expected but was still a valuable learning experience.',
     questions: [
-      "How do you think Billy Joel's diagnosis and health challenges will impact his legacy as a musician?",
-      'What are your thoughts on the importance of prioritizing health over career, especially in the entertainment industry?',
-      'How do you feel about the way public figures like Billy Joel share their health struggles with fans?',
+      "What do you think influenced Paige's decision to leave 'Summer House' after so many seasons?",
+      "How do you feel about the impact of reality TV on personal growth and relationships, as reflected in Paige's announcement?",
+      "What are your thoughts on how reality TV stars transition to new opportunities after leaving a long-running show?",
     ],
   },
   {
-    topic: 'Entertainment',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNXROVlZyWTI5ZlJUVjBXRmc1VFJDUEF4alhCQ2dLTWdheFJKaXZvUWc=-w280-h168-p-df',
-    title: 'Tragic Shooting of Actor Jonathan Joss',
-    summary: 'Sigfredo Alvarez Ceja, a 56-year-old neighbor, has been arrested and charged with the murder of actor Jonathan Joss, known for his roles in "King of the Hill" and "Parks and Recreation." Joss\'s husband, Tristan Kern de Gonzales, claims that the shooting was a hate crime, alleging that Ceja laughed as Joss lay dying after being shot. The incident occurred while Joss and de Gonzales were grieving, and they were reportedly unarmed and not threatening anyone. Following the shooting, de Gonzales described a disturbing encounter where they found their dog\'s skull and harness displayed in a threatening manner. Police responded to the scene on Dorsey Drive in San Antonio, where they attempted life-saving measures on Joss, who was 59 years old at the time of his death.',
+    topic: "Entertainment",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNU5UWHBpZWs5a1lUWnZOMjR4VFJERUF4aW1CU2dLTWdhVko1NW9HZ28=-w280-h168-p-df",
+    title: "Ballerina: A New Chapter in the John Wick Franchise",
+    summary:
+      '"Ballerina" is an upcoming American action thriller film that expands the John Wick universe as the fifth installment in the franchise. This spin-off is set between the events of "John Wick: Chapter 3 – Parabellum" and "John Wick: Chapter 4." The film features Ana de Armas in the lead role as Eve Macarro, showcasing her impressive skills in a character that promises to add depth to the established narrative of the series.',
     questions: [
-      "What are the implications of classifying this incident as a hate crime, and how might it affect the community's response?",
-      'How can communities better support LGBTQ+ individuals to prevent violence and discrimination?',
-      'In what ways can media coverage influence public perception of hate crimes and the victims involved?',
+      'What are your expectations for "Ballerina" in terms of its connection to the John Wick storyline?',
+      "How do you think Ana de Armas will contribute to the legacy of the John Wick franchise with her portrayal of Eve Macarro?",
+      'In what ways do you believe "Ballerina" will differentiate itself from the main John Wick films?',
     ],
   },
   {
-    topic: 'Entertainment',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNU5Ua2xDTFhKalpGaEdXR0paVFJERUF4aW1CU2dLTWdZQlVwWmtwZ2c=-w280-h168-p-df',
-    title: 'Live Broadcast of "Good Night, and Good Luck" on CNN',
-    summary: 'Producers of the Broadway play "Good Night, and Good Luck" have announced that the penultimate performance of the drama, created by George Clooney and Grant Heslov, will be broadcast live on CNN on June 7 at 7 p.m. The play, which explores the era of McCarthyism, follows journalist Edward R. Murrow and his team as they confront the rising paranoia and propaganda of the time, risking their careers and public support. This production marks a historic moment as it is the first time a live Broadway performance will be televised. George Clooney, making his Broadway debut as Murrow, delivers a powerful portrayal of the journalist\'s courageous stand against Senator Joseph McCarthy\'s communist investigations. The adaptation is based on Clooney and Heslov\'s screenplay for the acclaimed 2005 film, and CNN anchors Anderson Cooper and Pamela Brown will provide special live coverage of the event. **Questions:**',
+    topic: "Entertainment",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iL0NnNHhZVkIyWmpCcFdFSkpSak41VFJDM0FSaVRBaWdCTWdrTlFaTFRxS2V4aGdJ=-w280-h168-p-df",
+    title: "Identity: Elliott Lowry's Journey",
+    summary:
+      "Elliott, the 15-year-old son of Teen Mom alum Kailyn Lowry, has publicly come out as gay and has chosen to go by his new name, Elliott, as part of embracing his identity. He expressed that this decision is significant for him, stating, “I’m doing it for me.” Elliott shared the challenges of growing up in the public eye, noting that being constantly filmed makes it difficult to truly express oneself and feel comfortable. His journey highlights the importance of authenticity and self-acceptance, especially in the context of navigating personal identity under the scrutiny of reality television.",
     questions: [
-      'What do you think the significance of broadcasting a live Broadway performance is for the future of theater?',
-      'How does the historical context of McCarthyism resonate with current events in media and politics today?',
-      "In what ways do you believe George Clooney's portrayal of Edward R. Murrow impacts the audience's understanding of journalistic integrity?",
+      "How do you think growing up in the public eye impacts a person's ability to express their true identity?",
+      "What role do you believe names play in a person's sense of self and identity?",
+      "In what ways can society better support young individuals who are coming out and embracing their identities?",
     ],
   },
   {
-    topic: 'Entertainment',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNW9SbEZxVkZCd2VGVmpaMDV2VFJDUUF4allCQ2dLTWdZbFJaYXRJUWc=-w280-h168-p-df',
-    title: "Tom Felton's Broadway Debut as Draco Malfoy",
-    summary: 'Tom Felton is set to make his Broadway debut as Draco Malfoy in "Harry Potter and the Cursed Child" at the Lyric Theatre, marking a significant moment in his career. Expressing his excitement, Felton described the experience as surreal, noting that he will be the same age as Draco in the play, which is set 19 years after the events of "Harry Potter and the Deathly Hallows." He reflected on the honor of being part of the Harry Potter franchise and the joy of returning to the character, who was once his nemesis in the films. The cast also includes Dominic McLaughlin as Harry Potter, Arabella Stanton as Hermione Granger, and Alastair Stout as Ron Weasley. Felton\'s previous stage experience includes performances in "2:22 A Ghost Story" and "A Child of Science." The play explores the friendship between Potter\'s son Albus and Malfoy\'s son Scorpius, showcasing a new dynamic in the wizarding world.',
+    topic: "Entertainment",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iL0NnNHlkRlk1ZHpkdmNFdEROREJGVFJERUF4aW1CU2dLTWdrQlFZeXZKR2hxY2dF=-w280-h168-p-df",
+    title: "Tragic Incident Highlights Ongoing Harassment and Violence",
+    summary:
+      "In a recent statement, de Gonzales revealed that he and his partner, Joss, had endured significant harassment, much of which was overtly homophobic. Sigfredo Ceja Alvarez, a neighbor, has been charged with the murder of Joss following a shooting incident. Police Chief McManus acknowledged the lack of timely information regarding the case and explained that while police do not initially charge hate crimes, they gather facts for the District Attorney to consider during sentencing. Over the past two years, police had responded to approximately 70 calls related to disturbances in Joss's neighborhood, with Joss himself sometimes being the caller. The situation escalated to the point where their home was burned down after repeated threats. On the day of the shooting, Joss and de Gonzales were grieving near the site of their home when they were attacked. Joss was fatally shot while trying to protect de Gonzales, who described the traumatic experience of being targeted with violent homophobic slurs. Joss was pronounced dead at the scene at the age of 59.",
     questions: [
-      "How do you think Tom Felton's portrayal of Draco Malfoy will differ from his character in the original Harry Potter films?",
-      'What are your thoughts on the themes of friendship and legacy as explored in "Harry Potter and the Cursed Child"?',
-      "How do you feel about actors returning to their iconic roles after many years, and what impact do you think it has on the audience's perception of the character?",
+      "How do you think communities can better support LGBTQ+ individuals facing harassment and violence?",
+      "What role do you believe law enforcement should play in addressing hate crimes and ensuring the safety of marginalized groups?",
+      "In what ways can society work to change the attitudes that lead to homophobic violence and discrimination?",
     ],
   },
   {
-    topic: 'Entertainment',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNUZRVVptVVZOUk5IcExiVzB3VFJES0FoaktBaWdLTWdZcGhKQ3VzUVk=-w280-h168-p-df',
-    title: 'Controversy Strikes "Love Island USA" with Departure of Yulissa Escobar',
-    summary: 'In a surprising turn of events on the latest season of "Love Island USA," contestant Yulissa Escobar was announced to be leaving the show just 18 minutes into the second episode. This decision followed the resurfacing of podcast clips in which Escobar used racial slurs, specifically the N-word, while discussing her past relationships. The controversy erupted on social media shortly after the season premiere, leading to her departure. Escobar was previously coupled with Ace Greene, who was later revealed to be single following her exit. Additionally, contestant Austin Shepard faced criticism after screenshots of his TikTok posts supporting Trump circulated online, further highlighting the show\'s current controversies.',
+    topic: "Entertainment",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNU1PV3BWZWkxUFkwRnlUV0pQVFJDcUJCaXFCQ2dLTWdhTk1JelZGQVk=-w280-h168-p-df",
+    title: "Highlights of the 78th Annual Tony Awards Ceremony",
+    summary:
+      'The 78th annual Tony Awards will be hosted by the accomplished Cynthia Erivo, with Darren Criss and Renée Elise Goldsberry leading the pre-show special, "The Tony Awards: Act One." The ceremony will showcase performances from all five nominees for Best Musical, including "Buena Vista Social Club" and "Dead Outlaw," as well as the four nominees for Best Revival of a Musical, such as "Gypsy" and "Sunset Blvd." A notable highlight will be a special performance celebrating the 10th anniversary of the original Broadway cast of "Hamilton." In the competitive categories, the Best Revival of a Play features a close race between David Henry Hwang\'s "Yellow Face" and Jonathan Spector\'s "Eureka Day." Additionally, the Best Direction of a Musical category includes notable directors like Saheem Ali and Michael Arden. Audra McDonald, a record holder for Tony wins, could potentially extend her record with her performance in "Gypsy," while Harvey Fierstein will receive a special Tony Award for Lifetime Achievement in the Theater.',
     questions: [
-      'How do you think the use of social media impacts the public perception of reality TV contestants like Yulissa Escobar?',
-      'What are the potential consequences for reality shows when contestants are involved in controversies like this?',
-      'In your opinion, should reality TV shows have stricter vetting processes for contestants to avoid similar issues in the future?',
+      "What are your thoughts on the significance of the performances from the nominated shows at the Tony Awards?",
+      "How do you think the competition in the Best Revival of a Play category will impact the overall outcome of the awards?",
+      "What does Audra McDonald's potential record-breaking win mean for the representation of performers in theater?",
     ],
   },
   {
-    topic: 'Sports',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iI0NnNTZjblZsTkhoTU5YaG1hVWRYVFJDb0FSaXJBaWdCTWdB=-w280-h168-p-df',
-    title: 'Aaron Rodgers Joins the Steelers for 2024 Season',
-    summary: "Aaron Rodgers concluded the 2024 season with an impressive performance, throwing for 18 touchdowns and only four interceptions in his final 10 games with the Jets. In a significant move, the Steelers acquired Seahawks wide receiver DK Metcalf, who has consistently performed well throughout his six-year career, never recording fewer than 900 receiving yards and surpassing 1,000 yards three times. As Rodgers transitions to the Steelers, he will face his former team, the Jets, in the season opener. Reports indicate that the four-time NFL MVP has signed a one-year deal with the Steelers and plans to participate in the team's mandatory minicamp next week. Meanwhile, other notable quarterback movements include Wilson signing with the Giants and Fields joining the Jets.",
+    topic: "Entertainment",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iI0NnNVphSGRoYTA5SU0xZzNZa2g2VFJDZkF4ampCU2dLTWdB=-w280-h168-p-df",
+    title: 'Premiere of "Echo Valley" - A Thrilling Mother-Daughter Drama',
+    summary:
+      'Apple Original Films is set to premiere the gripping thriller "Echo Valley," featuring a star-studded cast including Julianne Moore, Sydney Sweeney, and Domhnall Gleeson. The film centers on Kate, portrayed by Moore, who is a mother striving to reconcile her strained relationship with her troubled daughter Claire, played by Sweeney. The tension escalates dramatically when Claire arrives at Kate\'s home in a state of panic, covered in blood, which raises urgent questions about her safety and the nature of their relationship. "Echo Valley" will debut on Apple TV+ on June 13, promising an intense exploration of familial bonds amidst chaos.',
     questions: [
-      "How do you think Aaron Rodgers' experience will impact the Steelers' performance this season?",
-      'What are your thoughts on the Steelers trading for DK Metcalf and how it will affect their offensive strategy?',
-      "How do you feel about the upcoming matchup between the Steelers and the Jets in Week 1, considering Rodgers' history with the Jets?",
+      'What themes do you think "Echo Valley" explores regarding the mother-daughter relationship?',
+      "How do you think the portrayal of addiction in the film will impact viewers' perceptions of the characters?",
+      "In what ways do you believe the thriller genre enhances the storytelling of complex family dynamics?",
     ],
   },
   {
-    topic: 'Sports',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iL0NnNDROMGRSVTI1MllWVkxNVXBxVFJDZkF4amlCU2dLTWdrUkVwRDBsS3FwcFFJ=-w280-h168-p-df',
-    title: '2025 NBA Finals Preview: Thunder vs. Pacers',
-    summary: "The 2025 NBA Finals will commence on Thursday, June 5, at 7:30 p.m. at the Paycom Center, featuring the Oklahoma City Thunder against the Indiana Pacers. This marks a significant moment for the Pacers, who have not reached the Finals since 2000, when they triumphed over the New York Knicks in the Eastern Conference finals. The Thunder, having recently defeated the Minnesota Timberwolves in five games to secure their Finals berth, are considered heavy favorites to win the championship. Shai Gilgeous-Alexander has made history as the third player from the Thunder to earn the NBA's Most Valuable Player award, further solidifying the team's strong position. Despite the odds favoring Oklahoma City, the Pacers are determined to make a competitive showing.",
+    topic: "Sports",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iI0NnNUpWWEJ4WWpST1UyaGxlRTF0VFJERUF4aW1CU2dLTWdB=-w280-h168-p-df",
+    title: "Pacers Stage Dramatic Comeback in Game 1 of NBA Finals",
+    summary:
+      "In a thrilling Game 1 of the NBA Finals, the Indiana Pacers overcame a significant deficit against the Oklahoma City Thunder, trailing by as much as 15 points early in the fourth quarter. Led by Tyrese Haliburton, who delivered a game-winning shot with just 0.3 seconds left, the Pacers managed to rally back despite facing a formidable performance from Thunder's MVP Shai Gilgeous-Alexander, who scored 38 points. The Pacers struggled with turnovers, committing 19 in the first half but improved significantly in the second half, only giving up 6. Haliburton acknowledged the challenging atmosphere created by the Thunder's home crowd, which contributed to some early-game jitters. The series continues with Game 2 scheduled for Sunday night in Oklahoma City.",
     questions: [
-      'What do you think are the key factors that will determine the outcome of the Thunder vs. Pacers series?',
-      "How do you feel about the Pacers' chances of winning the championship after such a long absence from the Finals?",
-      "In what ways do you think Shai Gilgeous-Alexander's MVP performance will impact the Thunder's strategy in the Finals?",
+      "How do you think the Pacers can maintain their momentum going into Game 2 after such a dramatic win?",
+      "What impact do you believe the home crowd will have on the Thunder's performance in the next game?",
+      "In what ways do you think Tyrese Haliburton's leadership influenced the Pacers' comeback in Game 1?",
     ],
   },
   {
-    topic: 'Sports',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNWFNM0IxVmpFek55MXVMWFp4VFJEMEFoalJBeWdLTWdZbEJvcnREUXM=-w280-h168-p-df',
-    title: 'Coco Gauff Advances to French Open Final Against Aryna Sabalenka',
-    summary: "Coco Gauff has secured her place in the French Open final by defeating French wildcard Lois Boisson with a commanding score of 6-1, 6-2. This victory sets up a highly anticipated match against World No. 1 Aryna Sabalenka. Gauff, who was the runner-up at Roland Garros in 2022, demonstrated her skill by overcoming Boisson, who struggled to maintain her composure during the match. Despite Gauff's impressive performance, she will need to refine her serve, as she had previously recorded 10 double-faults in her semi-final match against Madison Keys. Gauff expressed her excitement about playing against a French player for the first time and noted the crowd's support for Boisson, which she used as motivation during the match.",
+    topic: "Sports",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iI0NnNXlXVVpaTldNME9GTmZVbmh5VFJDb0FSaXNBaWdCTWdB=-w280-h168-p-df",
+    title: "Rodgers Joins Steelers: A New Chapter in Pittsburgh",
+    summary:
+      "Aaron Rodgers is set to participate in Pittsburgh's mandatory minicamp next week, marking a significant moment for the Steelers as they integrate the veteran quarterback into their roster. While Rodgers is not the same player who threw 48 touchdowns to just five interceptions in 2020, his presence is still a notable improvement over the team's previous options. The Steelers have also bolstered their offense by trading for Seahawks wide receiver DK Metcalf, who has consistently performed at a high level throughout his career. If Rodgers and Metcalf can establish a strong connection, they could lead the Steelers to a successful season. Although concerns remain about Rodgers' current performance level, head coach Mike Tomlin is seen as capable of managing the situation effectively.",
     questions: [
-      "How do you think Coco Gauff's experience as a runner-up last year will impact her performance in the final against Aryna Sabalenka?",
-      'What strategies do you think Gauff should focus on to improve her serve before the final match?',
-      'How important is crowd support in tennis matches, and how do you think it affects players like Gauff and Boisson?',
+      "How do you think Aaron Rodgers' experience will impact the Steelers' offensive strategy this season?",
+      "What are your thoughts on the potential chemistry between Rodgers and DK Metcalf?",
+      "Do you believe that Mike Tomlin is the right coach to handle the challenges that come with integrating a player like Rodgers?",
     ],
   },
   {
-    topic: 'Sports',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNW1iWGczVlRack1HeEdNRFZXVFJEVkFSakFBaWdLTWdhMUk0cHdsUWs=-w280-h168-p-df',
-    title: 'New Sex-Testing Policy in Boxing for the 2028 Olympics',
-    summary: "World Boxing, the organization responsible for overseeing boxing events at the 2028 Olympics in Los Angeles, has implemented a mandatory sex-testing policy. This announcement comes as Algerian gold medalist Imane Khelif prepares to compete at the Eindhoven Box Cup in the Netherlands. Khelif, who identifies as female, has expressed her commitment to competing as a woman, despite the controversy surrounding the new testing policy. The tests will utilize PCR technology to detect the SRY gene, which indicates the presence of the Y chromosome. The International Olympic Committee (IOC) has clarified that eligibility criteria for competitors are determined by the respective International Federations, and that individuals can compete in the women's division if their passports identify them as female. Following the announcement, World Boxing President Boris van der Vorst issued an apology to the Algerian Boxing Federation for specifically mentioning Khelif in relation to the policy.",
+    topic: "Sports",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNWZaVWN0U25ZNFpHbDRRVEo1VFJDb0FSaXNBaWdCTWdhQkVJNnRFUXM=-w280-h168-p-df",
+    title: "Alcaraz Advances to Final Amidst Injury Withdrawals",
+    summary:
+      "Carlos Alcaraz reached the final of the tournament after his opponent, Lorenzo Musetti, retired due to injury. In the ongoing match, Jannik Sinner faced Novak Djokovic, with Sinner attempting to regain momentum after Djokovic showcased impressive shots to take a lead. Notably, Sinner has not lost a set at Roland Garros this year. Alcaraz praised Musetti's skills, acknowledging the challenge he presented in their match, particularly in the first two sets, which were fiercely contested.",
     questions: [
-      "How do you think the implementation of sex-testing policies will impact athletes' participation in women's sports?",
-      "What are your thoughts on the balance between ensuring fair competition and respecting athletes' gender identities?",
-      'How might this new policy affect the public perception of boxing and the Olympics as a whole?',
+      "How do you think injuries impact the dynamics of a tournament like Roland Garros?",
+      "What qualities do you believe make a player like Alcaraz stand out in high-pressure matches?",
+      "In what ways do you think the mental aspect of tennis influences a player's performance during critical moments?",
     ],
   },
   {
-    topic: 'Sports',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNW5SbkV5YmtkS1lUUnBjVE4wVFJDb0FSaXNBaWdCTWdhVkk1QkluUW8=-w280-h168-p-df',
-    title: "Richardson's Injury Challenges in the NFL",
-    summary: "In his third NFL season, quarterback Richardson has faced numerous injuries, including a hip sprain, shoulder A/C joint sprain, concussion, and chronic lower back issues. Recently, he has suffered a second sprain to the same A/C joint, prompting the team's head coach, Steichen, to announce that Richardson will be sidelined for the week and will also miss minicamp. While the medical team has assessed the injury and determined that no surgical procedure is necessary at this time, there is no set timetable for his return to training camp. Upon his return, the team plans to gradually reintroduce him to throwing activities.",
+    topic: "Sports",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNXVOMjB6UlRrdE1IaEJXWGxIVFJDZkF4ampCU2dLTWdhbFZaRHNwUWM=-w280-h168-p-df",
+    title: "Knicks Eye Jason Kidd for Coaching Position",
+    summary:
+      "The New York Knicks are reportedly planning to seek permission to interview Jason Kidd, the current head coach of the Dallas Mavericks, for their vacant coaching position following the firing of Tom Thibodeau. While a definitive list of candidates has not been established, Kidd is believed to be a leading contender due to his previous successful relationship with Knicks player Jalen Brunson during their time together in Dallas. Additionally, Ime Udoka, who recently completed a successful second season with the Houston Rockets, has also been mentioned as a potential candidate for the Knicks' coaching role.",
     questions: [
-      "How do you think Richardson's ongoing injuries will impact his performance and development as a quarterback in the NFL?",
-      "What strategies do you think teams should implement to manage players with recurring injuries like Richardson's?",
-      'In your opinion, how important is it for athletes to prioritize their long-term health over immediate performance in high-pressure sports like football?',
+      "What do you think are the key qualities the Knicks should look for in their next head coach?",
+      "How might Jason Kidd's previous relationship with Jalen Brunson influence the Knicks' decision-making process?",
+      "In your opinion, what impact could a new coach have on the Knicks' performance in the upcoming season?",
     ],
   },
   {
-    topic: 'Sports',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNU9OMmhhTVdaR1kwbE9aUzAxVFJERUF4aW1CU2dLTWdhZElvQkpLZ2M=-w280-h168-p-df',
-    title: 'Stanley Cup Final Preview: Oilers vs. Panthers',
-    summary: "The Stanley Cup Final will once again showcase a matchup between the Edmonton Oilers and the Florida Panthers, beginning tonight. In the postseason, Florida's goaltender Sergei Bobrovsky has been impressive, boasting a 1.57 goals-against average, a .935 save percentage, and two shutouts over the last ten games. Meanwhile, Edmonton's Stuart Skinner has rebounded after a rocky start, achieving a 6-1 record in his last seven games, with a remarkable 1.41 goals-against average, a .944 save percentage, and three shutouts. This series promises to be a thrilling contest between two strong teams and their standout goalies.",
+    topic: "Sports",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNVBVSGcwWmsxSVFuZzVTa2hyVFJERUF4aW5CU2dLTWdZZEU1U05FUWc=-w280-h168-p-df",
+    title: "Insights on the 2025 Belmont Stakes and Betting Opportunities",
+    summary:
+      "The 2025 Belmont Stakes is set to take place at 6:50 p.m. ET, with notable contenders including Baeza, who previously secured a third-place finish in the Kentucky Derby. Baeza is recognized for his consistent performance and strategic racing style, making him a horse to consider for bettors. Those who have followed his picks on various betting platforms, such as FanDuel and TwinSpires, may have seen significant returns. It is important to note that CBS Sports provides this information for entertainment purposes and does not guarantee the accuracy of the content or the outcomes of events. The site also emphasizes responsible gambling, offering resources for those who may need help with gambling issues.",
     questions: [
-      'How do you think the performance of the goaltenders will impact the outcome of the Stanley Cup Final?',
-      'What strategies do you believe each team should employ to gain an advantage in the series?',
-      'In your opinion, what factors will be most crucial for either the Oilers or the Panthers to secure the championship?',
+      "What factors do you think contribute to a horse's success in major races like the Belmont Stakes?",
+      "How do you feel about the role of betting promotions in influencing people's decisions to wager on horse racing?",
+      "What are your thoughts on the importance of responsible gambling resources in the context of sports betting?",
     ],
   },
   {
-    topic: 'Sports',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iL0NnNTJjV3B6TUZSM2JsWlBVVGQxVFJEZ0F4al9CQ2dLTWdrQkFJaGpnbXhyN0FF=-w280-h168-p-df',
-    title: 'Knicks Part Ways with Coach Tom Thibodeau After Historic Playoff Run',
-    summary: "In a surprising decision, the New York Knicks have dismissed head coach Tom Thibodeau just days after he guided the team to its first Eastern Conference Finals appearance in 25 years. The Knicks had not reached this stage since 2000, ultimately falling to the Indiana Pacers in six games. Team president Leon Rose expressed gratitude for Thibodeau's dedication and hard work, stating that the organization is focused on winning a championship for its fans. Despite the recent success, the decision was made with the belief that it is in the best interest of the franchise moving forward.",
+    topic: "Sports",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iI0NnNU1SV1ptV1VWWGFuRnJXV1IzVFJEcUFSaWdBeWdLTWdB=-w280-h168-p-df",
+    title:
+      "Coaching Changes in the NHL: The Case of Pete DeBoer and the Dallas Stars",
+    summary:
+      "In a surprising move, the Dallas Stars announced the firing of head coach Pete DeBoer, who had led the team to three consecutive Western Conference Final appearances. This decision came after a disappointing performance in the playoffs, where the Stars lost six of seven games to the Edmonton Oilers, and a particularly troubling elimination game where the team conceded two goals on just two shots. General manager Jim Nill expressed gratitude for DeBoer's contributions but emphasized the need for a new voice in the locker room to help the team achieve its ultimate goal of winning the Stanley Cup. DeBoer, 56, has a notable track record, having reached the conference finals with three different teams over the past seven seasons, including the Vegas Golden Knights and the San Jose Sharks.",
     questions: [
-      "What do you think were the main reasons behind the Knicks' decision to fire Tom Thibodeau after such a successful season?",
-      "How do you think this coaching change will impact the team's performance in the upcoming season?",
-      'What qualities do you believe the Knicks should look for in their next head coach to ensure continued success?',
+      "What do you think are the key factors that lead to a coach being fired in professional sports?",
+      "How important is it for a team to have continuity in coaching, especially during playoff runs?",
+      "In your opinion, what qualities should the Dallas Stars look for in their next head coach to improve their chances of winning the Stanley Cup?",
     ],
   },
   {
-    topic: 'Sports',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iMkNnNDVaa05TTVZka2MwaFpTV1o1VFJDUUF4ai1CU2dLTWdzQmtJWWh3MlFIN0NrVmJB=-w280-h168-p-df',
-    title: 'The Future of Trey Hendrickson and Trade Prospects',
-    summary: 'The Cincinnati Bengals are unlikely to receive a first-round pick for pass rusher Trey Hendrickson, as a deal would have likely been finalized by now if that were the case. Despite this, Hendrickson remains a highly valuable player in the league. However, his desire for a lucrative contract extension poses a challenge, particularly for teams like the Indianapolis Colts, who may not have sufficient cap space to accommodate such a deal.',
+    topic: "Sports",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iMkNnNTFRMDlFTFY5SFpFcFVXSFZqVFJDZkF4amlCU2dLTWd1QkVwYm9uU2s5NC1wYWd3=-w280-h168-p-df",
+    title: "Reflections on UFC 316 and Fighter Mindsets",
+    summary:
+      "In the lead-up to UFC 316, fighter Sean O’Malley expressed a sense of satisfaction with his performance, despite the competitive nature of the sport. The event features a co-main bout between Julianna Pena and Kayla Harrison for the women’s Bantamweight title, highlighting the significance of rematches in mixed martial arts. O’Malley, like many fighters, views the opportunity to face opponents who have previously bested them as a chance for redemption, regardless of whether the fight is for a championship title. The early preliminaries for UFC 316 are set to air on ESPN, showcasing the excitement surrounding the event.",
     questions: [
-      'What do you think the Bengals should do with Trey Hendrickson given the current trade market?',
-      'How important is it for teams to balance player value with salary cap constraints when considering trades?',
-      'In your opinion, what factors should Hendrickson prioritize when negotiating his contract extension?',
+      "How do you think the pressure of rematches affects a fighter's performance in the octagon?",
+      "What are your thoughts on the importance of championship titles in motivating fighters to seek revenge against past opponents?",
+      "In what ways do you think a fighter's mindset influences their approach to training and preparation for a rematch?",
     ],
   },
   {
-    topic: 'Sports',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iI0NnNXFRak5pVjNWaGRTMVhkRXBuVFJEMEFoalJBeWdLTWdB=-w280-h168-p-df',
-    title: 'Spain Triumphs Over France in Nations League Thriller',
-    summary: "In a thrilling encounter, Spain defeated France 5-4 to secure a spot in the Nations League final. The match saw Spain take an early lead with goals from Nico Williams and Mikel Merino. Lamine Yamal played a pivotal role, earning a penalty after being fouled by Adrien Rabiot, which he converted confidently. Yamal scored twice during the match, including a crucial goal that restored Spain's four-goal advantage after Kylian Mbappe had narrowed the score. The game featured a late surge from France, highlighted by a stunning volley from Rayan Cherki, but Spain held on to their lead. They will face Portugal in the final, showcasing their resilience and attacking prowess throughout the match.",
+    topic: "Sports",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iL0NnNU1XVVZmZDFST1ZEVkdaa1ZTVFJERUF4aW1CU2dLTWdtQkVJeHdGZXZBcFFJ=-w280-h168-p-df",
+    title: "Jon Jones' Retirement and the Heavyweight Championship Controversy",
+    summary:
+      "Tom Aspinall, the interim UFC heavyweight champion, has reiterated his belief that Jon Jones has retired, which he claims would make him the 'undisputed champion.' Aspinall, who secured the interim title by defeating Sergei Pavlovich in November 2023, suggests that Jones, who has been unable to defend his title due to injury, may not be concerned about being stripped of the heavyweight championship. Aspinall's comments reflect a growing sentiment in the MMA community regarding Jones' status and the implications for the heavyweight division.",
     questions: [
-      "What do you think were the key factors that contributed to Spain's victory over France in this match?",
-      "How do you feel about Lamine Yamal's performance, and what does it say about his potential future in football?",
-      "What impact do you think this win will have on Spain's confidence going into the final against Portugal?",
+      "What do you think the implications of Jon Jones' potential retirement are for the heavyweight division in the UFC?",
+      "How do you feel about the legitimacy of interim titles in combat sports, especially in light of situations like this?",
+      "Do you believe that Jon Jones will return to the octagon, or is it time for the UFC to move on without him?",
     ],
   },
   {
-    topic: 'Sports',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNWpXVk5tV1hsMmJtNTRUbUpGVFJETEFSam9BaWdLTWdZdFpZck9zUVU=-w280-h168-p-df',
-    title: 'Arrest of NFL Player Greg Hardy',
-    summary: 'Greg Hardy, a former NFL player known for his time with the Carolina Panthers and Dallas Cowboys, was arrested following an alleged physical altercation with his girlfriend. The arrest report indicates that he was charged with "assault causes bodily injury family." Throughout his career, Hardy played in 75 games, accumulating impressive statistics that include 238 tackles, 40 sacks, and eight forced fumbles, with one recovery.',
+    topic: "Sports",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNDVSV1JKUTBjelZqUkZkM2N4VFJDZkF4ampCU2dLTWdZQk1JZ3JxUVU=-w280-h168-p-df",
+    title: "Stanley Cup Final Preview: Oilers vs. Panthers",
+    summary:
+      "The Stanley Cup Final will once again showcase a matchup between the Edmonton Oilers and the Florida Panthers, starting tonight. Florida's goaltender, Sergei Bobrovsky, has been outstanding this postseason, boasting a 12-6 record, a 2.17 goals-against average, and a .912 save percentage. On the other side, Edmonton's Stuart Skinner has played a crucial role in the Oilers' success, making key saves to prevent the Panthers from gaining an advantage late in games. Skinner has reclaimed the starting position since May 10, achieving a 6-2 record with an impressive 1.73 goals-against average, .931 save percentage, and three shutouts. Additionally, Leon Draisaitl made history by tying an NHL record with his third overtime goal of the postseason, highlighting the intensity and competitiveness of this year's final.",
     questions: [
-      "What are your thoughts on how domestic violence allegations impact an athlete's career and public image?",
-      'How do you think the NFL should handle players who face legal issues related to domestic violence?',
-      'In your opinion, what steps can be taken to better support victims of domestic violence in the sports community?',
+      "How do you think the performance of the goaltenders will impact the outcome of the Stanley Cup Final?",
+      "What are your thoughts on the significance of Draisaitl's record-tying overtime goals in the context of the series?",
+      "In what ways do you think the previous matchup between the Oilers and Panthers will influence their strategies in this year's final?",
     ],
   },
   {
-    topic: 'Science',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iJ0NnNXlPVXA0ZVdnM04wMUhYM2hxVFJENkFoaTNCQ2dLTWdNSllnUQ=-w280-h168-p-df',
-    title: "ispace's Resilience Lunar Lander Mission",
-    summary: 'The ispace lunar lander, named Resilience, has yet to establish communication with mission control following its launch aboard a SpaceX rocket. It shares its journey with Firefly Aerospace’s Blue Ghost, which successfully landed on the moon in March, marking a milestone as the first private entity to achieve this feat. Resilience carries a unique payload, including a small Swedish-style cottage called the Moonhouse, created by Mikael Genberg, and a 5-kilogram rover named Tenacious, which is prepared to explore the lunar surface. Additionally, the lander is equipped with modules designed for testing algae-based food production, monitoring deep-space radiation, and conducting a water electrolyzer experiment aimed at generating hydrogen and oxygen in the lunar environment. Only five countries have successfully completed robotic lunar landings to date: Russia, the U.S., China, India, and Japan.',
+    topic: "Science",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iL0NnNVFXVXBUTW5nMVdrOVdPVXBZVFJDZkF4ampCU2dLTWdrQm80cE9PYVc0RXdF=-w280-h168-p-df",
+    title: "Atmospheric Discoveries on WASP-121b",
+    summary:
+      "Scientists have made significant discoveries regarding the atmosphere of the ultra-hot gas giant WASP-121b, utilizing advanced telescopes to identify key molecules such as water vapor, carbon monoxide, silicon monoxide, and methane. This exoplanet orbits its star at a remarkably close distance, only twice the star's diameter, and completes an orbit in a mere 30.5 hours. The extreme proximity to its star creates drastic temperature variations across the planet, with the dayside soaring above 3000 degrees Celsius, while the nightside cools to around 1500 degrees Celsius. These findings enhance our understanding of the atmospheric composition and thermal dynamics of exoplanets in extreme environments.",
     questions: [
-      'What do you think are the potential benefits of testing algae-based food production on the moon?',
-      'How do you feel about the increasing involvement of private companies in space exploration?',
-      'What are your thoughts on the significance of the Moonhouse and its cultural representation in space missions?',
+      "What implications do the findings about WASP-121b's atmosphere have for our understanding of exoplanetary atmospheres in general?",
+      "How do the extreme temperature differences on WASP-121b affect the potential for habitability or the existence of life?",
+      "What challenges do scientists face when studying the atmospheres of distant exoplanets like WASP-121b?",
     ],
   },
   {
-    topic: 'Science',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNXdVVmhhY0dObmRGSTVVSGxZVFJDZkF4ampCU2dLTWdZSlZJSkpLZ1k=-w280-h168-p-df',
-    title: 'Potential Threat of Co-Orbital Asteroids Around Venus',
-    summary: 'A recent study indicates that there are unidentified "co-orbital asteroids" orbiting Venus that could pose a significant threat to Earth in the future. These asteroids, which share a similar orbital path with Venus, may have the potential to impact our planet, leading to catastrophic consequences. The findings highlight the importance of monitoring these celestial bodies, as they could be hiding in the sun\'s glare, making them difficult to detect and track.',
+    topic: "Science",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNHdZWGxTYUZKdmVXOUJSRGRIVFJDZkF4amtCU2dLTWdZMWtvZ1N0UVU=-w280-h168-p-df",
+    title: "NASA's Budget Cuts and Leadership Changes for 2026",
+    summary:
+      "The fiscal year 2026 budget allocates $18.8 billion to NASA, marking a significant reduction of $6 billion, or approximately 25%, from the previous year. This budget includes over $7 billion dedicated to lunar exploration and introduces $1 billion in new investments aimed at Mars-focused programs. Additionally, President Trump recently announced the withdrawal of his nomination of billionaire Jared Isaacman to lead NASA, indicating a shift in leadership as the agency navigates these budgetary changes.",
     questions: [
-      'What do you think are the implications of discovering co-orbital asteroids around Venus for planetary defense strategies?',
-      'How might scientists improve their detection methods for asteroids that are difficult to observe due to their proximity to the sun?',
-      'What steps should be taken to raise public awareness about the potential risks posed by asteroids and the importance of monitoring them?',
+      "How do you think the reduction in NASA's budget will impact its long-term goals for space exploration?",
+      "What are your thoughts on the decision to withdraw Jared Isaacman's nomination as NASA's leader?",
+      "In what ways do you believe the new investments in Mars-focused programs will shape the future of space exploration?",
     ],
   },
   {
-    topic: 'Science',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNUVjMDh5U2tGbFNraElhV2xHVFJERUF4aW5CU2dLTWdhcEE0aVBFUWs=-w280-h168-p-df',
-    title: 'Potential Budget Cuts to NASA and Their Implications',
-    summary: 'NASA is facing a potential budget cut of around 25% under a new proposal from the White House, pending Congressional approval. The budget plan includes over $7 billion earmarked for lunar exploration and $1 billion for Mars-related initiatives, allowing for the Artemis II mission to proceed with astronauts aboard an Orion capsule as early as 2026. However, the proposed cuts have raised concerns, with the Planetary Society describing the budget as "an extinction-level event" for NASA\'s vital scientific endeavors. Additionally, President Trump recently withdrew his nomination of billionaire Jared Isaacman to lead the agency, adding to the uncertainty surrounding NASA\'s future leadership and funding.',
+    topic: "Science",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNXJNV2xGVkU4eVRrRTROelJXVFJERUF4aW1CU2dLTWdZWnM0eFB1UVU=-w280-h168-p-df",
+    title:
+      "Understanding Extreme Nuclear Transients and Their Implications for Black Hole Research",
+    summary:
+      'Extreme Nuclear Transients (ENTs) are extraordinary astronomical phenomena that outshine typical tidal disruption events and can remain luminous for years, emitting energy levels far exceeding those of the brightest supernovae. For example, the most energetic ENT releases 25 times more energy than the most powerful known supernova. This discovery prompted astronomer Hinkle to collaborate with observatory teams globally to investigate these unusual long-lived flares from distant galaxies. The brightness of ENTs allows astronomers to observe them across vast cosmic distances, providing insights into black hole growth during a time when the universe was significantly younger and galaxies were more active in star formation and black hole feeding. ENTs occur when massive stars, at least three times the mass of the Sun, are disrupted by supermassive black holes at the centers of galaxies. The study highlights the potential for discovering more supermassive black holes, which typically remain undetected, by searching for these extreme events. Notably, one such event, referred to as "Barbie," was identified in 2020, marking a significant contribution to our understanding of these cosmic phenomena.',
     questions: [
-      "How do you think the proposed budget cuts will impact NASA's long-term goals for space exploration?",
-      'What are your thoughts on the importance of funding scientific research and exploration in the context of national priorities?',
-      "How might the withdrawal of Jared Isaacman’s nomination affect NASA's direction and public perception?",
+      "How do the findings about ENTs change our understanding of black hole activity in the early universe?",
+      "What implications do these discoveries have for future astronomical research and the search for supermassive black holes?",
+      "In what ways might the study of ENTs influence our understanding of stellar evolution and the life cycles of massive stars?",
     ],
   },
   {
-    topic: 'Science',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iL0NnNUxZVUkwYmpCa2NHUnNhR2hFVFJDb0FSaXNBaWdCTWdrQm80aER3ZVJURGdJ=-w280-h168-p-df',
-    title: 'Discovery of Key Molecules in the Atmosphere of WASP-121b',
-    summary: "Scientists have made significant discoveries regarding the atmosphere of the ultra-hot gas giant WASP-121b, utilizing advanced telescope technology to identify crucial molecules such as water vapor, carbon monoxide, silicon monoxide, and methane. This exoplanet orbits its star at a remarkably close distance, only twice the star's diameter, and completes an orbit in a mere 30.5 hours. The extreme proximity to its star creates drastic temperature variations across the planet, with the dayside soaring above 3000 degrees Celsius, while the nightside cools to around 1500 degrees Celsius. **Questions:**",
+    topic: "Science",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iJ0NnNW5aMlpLTWtsSlZHZDFRa3RNVFJDZkF4ampCU2dLTWdNQklBRQ=-w280-h168-p-df",
+    title: "Operational Control of GPS III SV08 and Future Enhancements",
+    summary:
+      "GPS III SV08 is now under operational control at Lockheed Martin’s Denver Launch & Checkout Operations Center, showcasing the company's capability to swiftly launch and deploy national security space assets. This satellite is part of the GPS III series, which aims to deliver precise and resilient positioning, navigation, and timing (PNT) services essential for various sectors, including aviation, maritime, land transportation, and search and rescue operations. Once operational, GPS III SV08 will be the eighth satellite in the GPS III constellation, featuring enhanced M-code capabilities that improve navigation precision and anti-jamming measures for military applications. Additionally, Lockheed Martin has received a contract modification to construct two more GPS IIIF satellites, further bolstering the constellation's capabilities. The GPS III SV08 mission was successfully launched by SpaceX on a Falcon 9 rocket on May 30.",
     questions: [
-      "What implications do the findings of key molecules in WASP-121b's atmosphere have for our understanding of exoplanetary atmospheres?",
-      'How do the extreme temperature differences on WASP-121b affect the potential for life or habitability compared to other exoplanets?',
-      'What challenges do scientists face when studying exoplanets like WASP-121b, and how might future technology improve our understanding of such distant worlds?',
+      "How do you think the enhanced capabilities of the GPS III satellites will impact military operations?",
+      "What are the potential implications of improved GPS technology for civilian sectors like aviation and transportation?",
+      "In your opinion, how important is it for countries to maintain and upgrade their satellite navigation systems in the context of national security?",
     ],
   },
   {
-    topic: 'Science',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNUZTbTlGTUMxa1NYQlZaRmhTVFJDb0FSaXNBaWdCTWdZcHNvd1J1UVU=-w280-h168-p-df',
-    title: 'Discovering Extreme Nuclear Transients: A New Cosmic Phenomenon',
-    summary: 'Recent research has identified a new category of cosmic events known as "extreme nuclear transients" (ENTs), which are characterized by their extraordinary brightness and prolonged luminosity. One such event released an astonishing 25 times more energy than the most powerful supernova recorded, emitting energy equivalent to the lifetime output of 100 suns over the course of a year. ENTs are significantly rarer than supernovae, occurring millions of times less frequently, yet they provide valuable insights into the processes that contribute to the growth of the universe\'s largest black holes. The study, led by astronomer Hinkle, involved collaboration with observatories worldwide to investigate these unusual phenomena. The brightness of ENTs allows astronomers to observe them across vast cosmic distances, effectively looking back in time to understand black hole growth during a period when the universe was much younger and galaxies were more active in star formation and black hole feeding. **Questions:**',
+    topic: "Science",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNXhWMnR2VkRCT1ZVcFphbTB0VFJDZkF4ampCU2dLTWdhcFFJd1BxUVU=-w280-h168-p-df",
+    title: "Rethinking the Milky Way and Andromeda Collision",
+    summary:
+      "Recent research has significantly altered the understanding of the potential collision between the Milky Way and Andromeda galaxies, suggesting that the likelihood of this merger is much lower than previously believed. While earlier theories posited that a collision, resulting in a new elliptical galaxy known as Milkomeda, was inevitable, the new findings indicate that such an event may occur over the next two billion years, contingent on the proximity of the two galaxies during their initial passage. If they remain more than approximately 500,000 light-years apart, a merger may not happen at all. The study, published in Nature Astronomy, emphasizes that the fate of the Milky Way remains uncertain, with researchers looking forward to more precise measurements from the Gaia space telescope to better understand the dynamics of these galaxies.",
     questions: [
-      'What implications do extreme nuclear transients have for our understanding of black hole formation and evolution in the early universe?',
-      'How might the discovery of ENTs change the way astronomers approach the study of cosmic events in the future?',
-      'In what ways do you think the rarity of ENTs compared to supernovae affects our ability to study and understand these phenomena?',
+      "How do you think the new findings about the Milky Way and Andromeda collision will impact our understanding of galaxy formation and evolution?",
+      "What implications do you think this research has for the future of our galaxy and its potential interactions with other galaxies?",
+      "How do you feel about the idea that the fate of the Milky Way is still open and uncertain, rather than predetermined?",
     ],
   },
   {
-    topic: 'Science',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iI0NnNVBhVTFyTjBWR1ptTlZWWFl4VFJERUF4aW1CU2dLTWdB=-w280-h168-p-df',
-    title: 'The Discovery of Nematode Towers on Decaying Fruits',
-    summary: 'Researchers have recently observed fascinating structures known as nematode towers on rotting apples and pears, revealing a unique behavior of Caenorhabditis roundworms. These towers, described by biologist Daniela Perez as more than mere piles of worms, were studied using digital microscopy in an orchard near the Max Planck Institute of Animal Behavior in Konstanz, Germany. The scientists dedicated months to observing these living formations, which had previously only existed in theoretical discussions. This discovery sheds light on the complex interactions between these roundworms and their decaying fruit environment.',
+    topic: "Health",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNWtORTFRTWtkTFpVcHhZemxaVFJDUUF4allCQ2dLTWdZaFZJeXNLUVk=-w280-h168-p-df",
+    title: "Advancements in HIV Research Using Lipid Nanoparticles",
+    summary:
+      "Recent research has utilized a novel lipid nanoparticle formulation, referred to as LNP X, to encapsulate mRNA-based latency reversing agents (LRAs) targeting HIV. This approach successfully activated HIV transcription in CD4+ T cells from individuals living with HIV who are on antiretroviral therapy (ART) in an ex vivo setting. Dr. Paula Cevaal, a co-author of the study, expressed enthusiasm over the ability of this lipid nanoparticle to deliver mRNA into HIV-infected cells, prompting them to expose the virus. This breakthrough could enable the immune system or therapeutic drugs to recognize and eliminate the virus, bringing researchers closer to finding a potential cure for HIV. The study was conducted using cells donated by HIV patients, and Cevaal noted the initial results were surprisingly promising, suggesting that this new nanoparticle design may pave the way for innovative treatments in HIV management. **Questions:**",
     questions: [
-      'What implications do the findings about nematode towers have for our understanding of ecosystem interactions?',
-      'How might the behavior of these roundworms influence the decomposition process of fruits in orchards?',
-      'What other unique behaviors in nature might still be waiting to be discovered, similar to the nematode towers?',
+      "What implications do you think the successful activation of HIV transcription in CD4+ T cells could have for future HIV treatments?",
+      "How do you feel about the potential of lipid nanoparticles in delivering therapeutic agents for other viral infections beyond HIV?",
+      "What ethical considerations should researchers keep in mind when using donated cells from HIV patients in studies like this?",
     ],
   },
   {
-    topic: 'Science',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNWlRV05YZEdsblVUbEVWMjVzVFJEOUFoaW1CU2dLTWdhQjlJQ3UwUUU=-w280-h168-p-df',
-    title: 'SpaceX Launches 27 Starlink Satellites on Falcon 9 Anniversary',
-    summary: 'On June 3, SpaceX successfully launched 27 Starlink satellites into low-Earth orbit from Vandenberg Space Force Base in California, marking the 15th anniversary of the inaugural Falcon 9 rocket launch. The liftoff occurred at 12:43 a.m. EDT, and shortly after, the Falcon 9 first-stage booster completed its 21st mission by landing on the drone ship "Just Read the Instructions" in the Atlantic Ocean. SpaceX provided a livestream of the event on its website, along with updates on social media. Starlink, owned by SpaceX founder Elon Musk, consists of over 6,700 satellites that deliver internet service globally. Approximately eight minutes post-launch, the first stage successfully landed on the "Of Course I Still Love You" droneship in the Pacific Ocean. **Questions:**',
+    topic: "Health",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iL0NnNDVOekJPUjNSWlN6ZG9ja1IwVFJDZkF4ampCU2dLTWdraEVKYnJHU29lcFFJ=-w280-h168-p-df",
+    title:
+      "Updated COVID-19 Vaccination Recommendations for Children and Pregnant Women",
+    summary:
+      "The Centers for Disease Control and Prevention (CDC) has issued new recommendations regarding COVID-19 vaccinations for healthy children and pregnant women, indicating that these groups may receive the vaccine, rather than strongly advising them to do so. This change follows a review by the Advisory Committee on Immunization Practices (ACIP), which evaluates extensive evidence on the safety and effectiveness of vaccines to guide recommendations on who should be vaccinated and the timing of vaccinations. While the CDC director has the authority to adopt, reject, or modify these recommendations, it is uncommon for such modifications to occur.",
     questions: [
-      'How do you think the expansion of the Starlink satellite network will impact global internet accessibility?',
-      'What are your thoughts on the environmental implications of launching thousands of satellites into orbit?',
-      "In what ways do you believe SpaceX's achievements in space technology will influence future space exploration and commercial ventures?",
+      "What do you think about the CDC's decision to soften the language regarding COVID-19 vaccinations for children and pregnant women?",
+      "How do you feel about the role of ACIP in determining vaccination recommendations based on clinical trial data?",
+      "What impact do you think this change in recommendations will have on public perception of COVID-19 vaccinations?",
     ],
   },
   {
-    topic: 'Health',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNWpORGhDZDNJMVVVODNVREp5VFJDZkF4ampCU2dLTWdhdFJJcXZ0UVU=-w280-h168-p-df',
-    title: 'Innovative Gene-Editing Treatment for Rare Metabolic Disease',
-    summary: "KJ, born on August 1, was diagnosed with a rare metabolic disorder known as CPS1, which leads to the accumulation of toxic levels of ammonia in the body. In response to this challenge, a team of researchers at the Children's Hospital of Philadelphia (CHOP) and the Perelman School of Medicine at the University of Pennsylvania developed a personalized gene-editing treatment utilizing CRISPR technology, a groundbreaking method recognized with a Nobel Prize for its ability to edit DNA effectively.",
+    topic: "Health",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iL0NnNWZObUZ0UVZRemNuWTFXR0V5VFJDb0FSaXNBaWdCTWdrSk00WnRJZWVaTVFF=-w280-h168-p-df",
+    title: "Health Risks of Nasal Irrigation with Contaminated Water",
+    summary:
+      "A Texas woman tragically died from an infection caused by a brain-eating amoeba after using tap water in a nasal irrigation device, as reported by the Centers for Disease Control and Prevention (CDC). The investigation revealed that she had used non-boiled water from the potable water faucet of her RV for nasal irrigation multiple times prior to her illness, without any recent exposure to fresh water. The CDC noted that between 1962 and 2023, only four out of 164 known cases of this infection in the U.S. have resulted in survival. This incident highlights the serious health risks associated with improper use of nasal irrigation devices and underscores the necessity of maintaining water quality in recreational vehicles and ensuring that municipal water systems comply with health regulations.",
     questions: [
-      'How do you think personalized gene-editing treatments like CRISPR could change the future of medicine for rare diseases?',
-      'What ethical considerations do you think should be taken into account when using gene-editing technologies on patients?',
-      'In what ways do you believe advancements in gene-editing could impact public perception of genetic disorders and their treatments?',
+      "What precautions do you think should be taken when using nasal irrigation devices to prevent infections?",
+      "How can municipalities improve water quality to ensure safety for residents and travelers using tap water?",
+      "What are your thoughts on the awareness and education surrounding the risks of using non-boiled water for nasal irrigation?",
     ],
   },
   {
-    topic: 'Health',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNTJaRW93Y0ZvM2RsaFBTVXRsVFJDNkF4aTJCU2dLTWdhTmdwQW9OUWM=-w280-h168-p-df',
-    title: 'Updated COVID-19 Vaccination Recommendations for Children and Pregnant Women',
-    summary: "The nation's leading public health agency has revised its recommendations regarding COVID-19 vaccinations for healthy children and pregnant women. The new guidance suggests that these groups may receive the vaccinations, but it has softened the previous language that strongly encouraged them to do so. These recommendations, formulated by the Advisory Committee on Immunization Practices (ACIP), are submitted for approval to the CDC director and will be integrated into the CDC's vaccine schedule, which plays a crucial role in determining insurance coverage under the Affordable Care Act.",
+    topic: "Health",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iJ0NnNWxSblZXYVZSQllXUmpMWEJDVFJDZkF4ampCU2dLTWdPSkpnUQ=-w280-h168-p-df",
+    title: "Rising Measles Cases and the Importance of Vaccination",
+    summary:
+      "Measles cases are on the rise in England, with outbreaks also occurring across Europe and in countries closely linked to the UK. Dr. Saliba emphasized the highly contagious nature of measles, which can lead to severe complications such as ear and chest infections and even inflammation of the brain, resulting in long-term health issues for some children. The MMR vaccine is highlighted as the most effective means of protection against measles, and it is never too late for individuals to get vaccinated. In April and May, there were 109 and 86 reported cases, respectively, primarily among unvaccinated children under 10 years old. The current figures are alarming, being double the cases reported earlier in 2023 and the highest since 1997. The UK Health Security Agency noted that Europe experienced its highest measles cases in nearly 30 years last year. Dr. Amanda Doyle from NHS England urged parents to ensure their children are vaccinated, as many young children remain unprotected against this easily spread disease.",
     questions: [
-      'What do you think about the change in language regarding COVID-19 vaccinations for children and pregnant women?',
-      'How do you feel this updated guidance might impact public perception of vaccine safety and necessity?',
-      'In your opinion, what factors should be considered when making vaccination recommendations for vulnerable populations like children and pregnant women?',
+      "What do you think are the main reasons for the recent increase in measles cases in England and Europe?",
+      "How do you feel about the importance of vaccination in preventing outbreaks of contagious diseases like measles?",
+      "What steps do you think communities can take to encourage more parents to vaccinate their children against measles?",
     ],
   },
   {
-    topic: 'Health',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNUtUR2hYTTA5UFQwMHdObXB3VFJERUF4aW1CU2dLTWdZRkVJS29PQU0=-w280-h168-p-df',
-    title: 'Rising Measles Cases and Travel Advisory',
-    summary: 'Amid a surge in measles cases both nationally and globally, the U.S. Centers for Disease Control and Prevention (CDC) has issued a travel advisory highlighting the risk of infection in crowded travel settings such as airports, public transportation, and tourist attractions. This year has seen 1,088 reported cases, predominantly linked to a multistate outbreak in West Texas, with 96% of those affected being unvaccinated. The CDC warns that infected travelers can reintroduce the virus to their home communities, where it can spread rapidly among those who are not immune. In response to the outbreak, health officials are recommending additional vaccine doses for infants traveling to areas with increased transmission. While the risk of exposure is generally low, individuals unable to be vaccinated are advised to consult their doctors about their risk and potential preventive measures, such as receiving immunoglobulins if exposed. The advisory emphasizes the importance of staying informed about vaccination status and health precautions, especially during the anticipated summer travel season.',
+    topic: "Health",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNXRjRjlSWWxkcVMwRmlkMmxvVFJERUF4aW5CU2dLTWdZTkI1eG9FZ28=-w280-h168-p-df",
+    title: "Measles Cases Confirmed in Colorado: Public Health Advisory",
+    summary:
+      "Colorado public health officials have reported three additional cases of measles linked to an international flight that arrived at Denver International Airport in May. The affected individuals, who are unrelated, were present at the airport on May 14. Symptoms of measles typically appear between seven to 21 days after exposure and include fever, cough, runny nose, red eyes, and a distinctive rash that usually emerges several days later. The Colorado Department of Public Health and Environment (CDPHE) has advised anyone who visited specific locations, including a King Soopers in Windsor on May 31, to monitor for symptoms and to contact healthcare providers before seeking care if symptoms develop. The MMR (measles, mumps, and rubella) vaccine is emphasized as a strong preventive measure, particularly for those who have not been vaccinated, as it can prevent infection if administered within 72 hours of exposure.",
     questions: [
-      'What measures do you think should be taken to increase vaccination rates in communities experiencing outbreaks of measles?',
-      'How do you feel about the balance between personal freedom and public health when it comes to vaccination mandates?',
-      'What are your thoughts on the effectiveness of travel advisories in preventing the spread of infectious diseases like measles?',
+      "What are your thoughts on the importance of vaccination in preventing outbreaks like this one?",
+      "How do you think public health officials can improve communication during health crises?",
+      "What measures do you believe individuals should take when traveling to prevent the spread of infectious diseases?",
     ],
   },
   {
-    topic: 'Health',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iK0NnNDBiRTVOTlVWRFlUWllaMGRXVFJDZkF4ampCU2dLTWdhQjBZYXN5UU0=-w280-h168-p-df',
-    title: 'Monitoring Measles Exposure in Southwestern Utah',
-    summary: 'Utah public health officials are actively monitoring a potential measles outbreak in the southwestern region of the state. This heightened vigilance follows reports of an out-of-state resident who visited the area on May 26 and 27 while being infectious with the measles virus. The officials are taking precautions to assess the situation and prevent any further spread of the disease.',
+    topic: "Health",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iI0NnNUxaMGhJVlVSWk1tZzRiR1J5VFJDZkF4ampCU2dLTWdB=-w280-h168-p-df",
+    title: "MASH: The Severe Form of MASLD",
+    summary:
+      "MASH, or metabolic dysfunction-associated steatotic liver disease, represents the most severe manifestation of this condition, which affects individuals who consume little to no alcohol. It is characterized by the presence of over 5 percent fat in the liver, indicating significant metabolic dysfunction. This condition highlights the impact of metabolic health on liver function, emphasizing the need for awareness and management of liver-related issues in individuals with minimal alcohol consumption.",
     questions: [
-      'What measures do you think public health officials should take to prevent a measles outbreak in the community?',
-      'How do you feel about the current vaccination rates in your area, and do you think they are sufficient to prevent diseases like measles?',
-      'What are your thoughts on the importance of public awareness campaigns regarding infectious diseases?',
+      "What do you think are the main lifestyle factors contributing to the development of MASH in individuals who do not consume alcohol?",
+      "How can awareness and education about MASH help in its prevention and management?",
+      "In your opinion, what role should healthcare providers play in addressing metabolic dysfunction and its impact on liver health?",
     ],
   },
   {
-    topic: 'Health',
-    imageUrl: 'https://news.google.com/api/attachments/CC8iJ0NnNWlla3RvTTNRd2RHaE1RMWRqVFJERUF4aW5CU2dLTWdNQlZ4NA=-w280-h168-p-df',
-    title: 'Tracking Measles Spread Through Wastewater Analysis',
-    summary: "As measles cases surge to alarming levels in the United States this year, researchers are employing a novel method to monitor the disease's spread: wastewater analysis. This approach allows for the detection of the virus in sewage systems, providing valuable data on infection rates in communities. Measles typically presents with initial symptoms such as fever and cough, followed by a distinctive rash that emerges three to five days later, beginning on the face and subsequently spreading across the body.",
+    topic: "Health",
+    imageUrl:
+      "https://news.google.com/api/attachments/CC8iK0NnNUNhREE1T0dFdFVHY3pVVmRHVFJDcUJCaXFCQ2dLTWdZcE5JNlFNUVk=-w280-h168-p-df",
+    title: "Risks of GLP-1 Receptor Agonists in Older Diabetic Patients",
+    summary:
+      "A recent study published in Jama Ophthalmology by Canadian researchers has revealed that the use of GLP-1 receptor agonists (RAs) is linked to a doubled risk of developing neovascular age-related macular degeneration in older adults with diabetes after six months of treatment, compared to those not using these medications. Novo Nordisk, the manufacturer of semaglutide, emphasizes that patient safety is paramount and urges individuals to seek immediate medical attention if they experience sudden vision loss or a rapid decline in eyesight while on the medication.",
     questions: [
-      'How effective do you think wastewater analysis will be in tracking other infectious diseases beyond measles?',
-      'What are the potential public health implications of rising measles cases in the US?',
-      'How can communities better prepare for outbreaks of diseases like measles in the future?',
+      "What are your thoughts on the balance between the benefits and risks of using GLP-1 receptor agonists for diabetes management in older patients?",
+      "How do you think pharmaceutical companies should address and communicate potential risks associated with their medications to patients?",
+      "In light of this study, what alternative treatments for diabetes do you think should be considered for older adults?",
     ],
   },
 ];

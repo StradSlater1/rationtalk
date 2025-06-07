@@ -7,7 +7,7 @@ import classy_classification
 
 class Articles:
 
-    def __init__(self, df, threshold=0.95, trash_file='scripts/texts/trash.txt'):
+    def __init__(self, df, threshold=0.95, trash_file='texts/trash.txt'):
         self.df = df
         self.threshold = threshold
         self.trash_df = {
