@@ -1,98 +1,93 @@
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.firefox.options import Options
 import pandas as pd
 import time
 import csv
 import undetected_chromedriver as uc
-from selenium.webdriver.support.ui import WebDriverWait
 import numpy as np
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from datetime import datetime
 
+# 1) Define your fixed topics and pre-seed the dict
+topics = ['U.S.', 'World', 'Business', 'Technology',
+          'Entertainment', 'Sports', 'Science', 'Health']
+topic_articles = {topic: [] for topic in topics}
 
 current_url = 'https://news.google.com/home?hl=en-US&gl=US&ceid=US:en'
-driver = webdriver.Firefox()
 
+# 2) Initialize driver (headless by default in CI)
+options = webdriver.FirefoxOptions()
+options.add_argument('--headless')
+driver = webdriver.Firefox(options=options)
+
+# 3) Load the Google News homepage and grab the topic tabs
 driver.get(current_url)
-
-
-wait = WebDriverWait(driver, 10)  # Wait up to 10 seconds
-topic_tabs = wait.until(
+wait = WebDriverWait(driver, 15)  # increase timeout for CI
+raw_tabs = wait.until(
     EC.presence_of_all_elements_located((By.CLASS_NAME, 'brSCsc'))
-    )
+)
 
-topics = ['U.S.', 'World', 'Business', 'Technology', 'Entertainment', 'Sports', 'Science', 'Health']
+# 4) Build a mapping of tab-text → href
+tab_map = {}
+for tab in raw_tabs:
+    txt = tab.text.strip()
+    if txt in topics:
+        tab_map[txt] = tab.get_attribute('href')
 
-for topic in topic_tabs:
-    if topic.text not in topics:
-        topic_tabs.remove(topic)
+# Debug output for CI logs
+print("DEBUG: available tabs:", list(tab_map.keys()))
 
-topic_links = []
-topic_articles = {}
-topic_tabs = topic_tabs[2:]
-
-for topic in topic_tabs:
-    topic_articles[topic.text] = []
-    topic_links.append(topic.get_attribute('href'))
-
-
+# 5) Iterate in fixed order and scrape articles
 i = 0
+for topic in topics:
+    link = tab_map.get(topic)
+    if not link:
+        print(f"WARNING: no tab found for topic {topic!r}, skipping")
+        continue
 
-for link, topic in zip(topic_links, topics):
     driver.get(link)
+    try:
+        article_divs = wait.until(
+            EC.presence_of_all_elements_located((By.CLASS_NAME, 'LU3Rqb'))
+        )
+    except TimeoutException:
+        print(f"WARNING: no articles loaded for {topic!r}, skipping")
+        continue
 
-    # Wait until at least one <div class="LU3Rqb"> is present
-    article_divs = wait.until(
-        EC.presence_of_all_elements_located((By.CLASS_NAME, 'LU3Rqb'))
-    )
-
-    # Reset success counter for this topic
     success_count = 0
-
-    # Iterate through all articles until we've collected 10 valid ones
     for article in article_divs:
         if success_count >= 10:
-            break  # We already have 10; move on to the next topic
-
+            break
         try:
-            coverage_link = article.find_element(By.CLASS_NAME, 'jKHa4e')
-            photo_link    = article.find_element(By.CLASS_NAME, 'Quavad')
-
-            final_photo_link  = photo_link.get_attribute('src')
-            final_story_link  = coverage_link.get_attribute('href')
-
-            # Append this (i, story, photo) tuple to the list for this topic
-            topic_articles[topic].append((i, final_story_link, final_photo_link))
-
-            # Increment both counters
+            coverage_link = article.find_element(By.CLASS_NAME, 'jKHa4e').get_attribute('href')
+            photo_link    = article.find_element(By.CLASS_NAME, 'Quavad').get_attribute('src')
+            topic_articles[topic].append((i, coverage_link, photo_link))
             i += 1
             success_count += 1
-
         except NoSuchElementException:
-            # If either element is missing, just skip this article
             continue
 
-    # (Optionally) if you want to know how many you actually found:
     print(f"Collected {success_count} valid articles for topic '{topic}'.")
-    
 
+# 6) Equalize list lengths by padding with placeholders
 max_length = max(len(lst) for lst in topic_articles.values())
-
 j = 0
 for key, lst in topic_articles.items():
     if len(lst) < max_length:
         deficit = max_length - len(lst)
-        lst.extend([(f"{j}_empty","0")] * deficit)
+        lst.extend([(f"{j}_empty", "0", "0")] * deficit)
         j += 1
-article_links = pd.DataFrame(topic_articles)
 
-
+# 7) Write out to CSV
+article_links = pd.DataFrame({
+    topic: [entry for entry in entries]
+    for topic, entries in topic_articles.items()
+})
 article_links.to_csv('data/featured_content_links.csv', index=False)
 
 driver.quit()
+
 
