@@ -1,0 +1,11 @@
+pandas
+spacy
+classy_classification
+sentence-transformers
+openai
+nltk
+scikit-learn
+selenium
+undetected-chromedriver
+beautifulsoup4
+python-dotenv

@@ -11,9 +11,9 @@ def main():
 
     # 2) List the scripts in the exact order you want them to run
     scripts_to_run = [
-        #"scrape_featured_content_links.py",
-        #"scrape_articles.py",
-        #"cluster_summary.py",
+        "scrape_featured_content_links.py",
+        "scrape_articles.py",
+        "cluster_summary.py",
         "csv_to_tsx.py",
     ]
 

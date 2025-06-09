@@ -1,0 +1,40 @@
+name: Daily run_all.py
+
+on:
+  schedule:
+    # Runs every day at 2:30 AM Pacific (UTC–7 → 09:30 UTC)
+    - cron: "30 9 * * *"
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install system dependencies
+        # for Selenium + Firefox
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y firefox-geckodriver firefox
+
+      - name: Install Python dependencies
+        # Assumes you have a requirements.txt at repo root
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Download NLTK punkt
+        run: |
+          python - <<EOF
+          import nltk; nltk.download('punkt')
+          EOF
+
+      - name: Run run_all.py
+        run: python run_all.py
