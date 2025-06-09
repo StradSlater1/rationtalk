@@ -38,3 +38,21 @@ jobs:
 
       - name: Run run_all.py
         run: python run_all.py
+
+      - name: Commit & push generated files
+        if: success() # Only run if the above steps succeeded
+        run: |
+          # Configure Git for Actions bot
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Stage all changes (new, modified, deleted files)
+          git add -A
+
+          # If there is anything to commit, do so
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update auto-generated files"
+            git push
+          else
+            echo "No changes to commit"
+          fi
