@@ -2,13 +2,16 @@ name: Daily run_all.py
 
 on:
   schedule:
-    # Runs every day at 2:30 AM Pacific (UTC–7 → 09:30 UTC)
+    # Runs every day at 2:30 AM Pacific (09:30 UTC)
     - cron: "30 9 * * *"
   workflow_dispatch:
 
 jobs:
   run-script:
     runs-on: ubuntu-latest
+    # expose your secret as an env var
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
     steps:
       - uses: actions/checkout@v3
@@ -19,13 +22,11 @@ jobs:
           python-version: "3.10"
 
       - name: Install system dependencies
-        # for Selenium + Firefox
         run: |
           sudo apt-get update
           sudo apt-get install -y firefox-geckodriver firefox
 
       - name: Install Python dependencies
-        # Assumes you have a requirements.txt at repo root
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
@@ -40,16 +41,11 @@ jobs:
         run: python run_all.py
 
       - name: Commit & push generated files
-        if: success() # Only run if the above steps succeeded
+        if: success()
         run: |
-          # Configure Git for Actions bot
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Stage all changes (new, modified, deleted files)
           git add -A
-
-          # If there is anything to commit, do so
           if ! git diff --cached --quiet; then
             git commit -m "chore: update auto-generated files"
             git push
