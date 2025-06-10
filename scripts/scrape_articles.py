@@ -103,6 +103,8 @@ if __name__ == "__main__":
     driver.set_page_load_timeout(30)
 
     w = 1
+    done = False
+
     for topic in topics:
         for link in todays_news[topic]:
             index, target_url, photo_link = link
@@ -112,10 +114,11 @@ if __name__ == "__main__":
             urls = scrape_links_from_script(target_url)
             extract_text(list(set(urls)), topic, photo_link, index, driver)
             w += 1
-            if w == 2:
-                break
-    # Close the driver after all articles are processed
-    
+            done = True     # mark that we’ve done the first batch
+            break           # break out of the inner loop
+        if done:
+            break           # break out of the outer loop
+        
 
     driver.quit()
     print("All articles scraped and saved.")

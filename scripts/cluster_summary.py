@@ -46,7 +46,7 @@ sum_ques = {
 # Load the SBERT model once:
 sbert_model = SentenceTransformer('all-MiniLM-L6-v2')
 
-for file_index in range(0, 2):  # adjust upper bound to your total file count
+for file_index in range(0, 1):  # adjust upper bound to your total file count
     #
     # 1) Read & clean articles from CSV
     #
