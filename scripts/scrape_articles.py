@@ -103,16 +103,19 @@ if __name__ == "__main__":
     driver.set_page_load_timeout(30)
 
     w = 1
-    while w <= 1:
-        for topic in topics:
-            for link in todays_news[topic]:
-                index, target_url, photo_link = link
-                if target_url == "0":
-                    continue
-                print(f"Processing [{w}/80] topic={topic}, url={target_url}")
-                urls = scrape_links_from_script(target_url)
-                extract_text(list(set(urls)), topic, photo_link, index, driver)
-                w += 1
+    for topic in topics:
+        for link in todays_news[topic]:
+            index, target_url, photo_link = link
+            if target_url == "0":
+                continue
+            print(f"Processing [{w}/80] topic={topic}, url={target_url}")
+            urls = scrape_links_from_script(target_url)
+            extract_text(list(set(urls)), topic, photo_link, index, driver)
+            w += 1
+            if w == 2:
+                break
+    # Close the driver after all articles are processed
+    
 
     driver.quit()
     print("All articles scraped and saved.")
