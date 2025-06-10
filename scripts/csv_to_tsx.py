@@ -11,7 +11,7 @@ INPUT_PATH = "data/story_data.csv"
 #      INPUT_PATH = "all_summaries.csv"
 #
 # 2) The output TSX file name. Change if you like:
-OUTPUT_PATH = "../rationtalk/src/assets/data/stories1.tsx"
+OUTPUT_PATH = "../rationtalk/src/assets/data/stories.tsx"
 # ————————————————————————————————————
 
 # 1) Load the sheet (supports both .xlsx and .csv based on extension)

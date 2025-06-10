@@ -46,15 +46,22 @@ sum_ques = {
 # Load the SBERT model once:
 sbert_model = SentenceTransformer('all-MiniLM-L6-v2')
 
-for file_index in range(0, 1):  # adjust upper bound to your total file count
+for file_index in range(0, 80):  # adjust upper bound to your total file count
     #
     # 1) Read & clean articles from CSV
     #
+    path = f"data/article_data/{file_index}.csv"
+    if not os.path.isfile(path):
+        # no such file — skip to the next index
+        print(f"[File {file_index}] not found. Skipping.")
+        continue
+
     df = pd.read_csv(
-        f'data/article_data/{file_index}.csv',
-        encoding='utf-8',
-        converters={'Paragraphs': literal_eval}
+        path,
+        encoding="utf-8",
+        converters={"Paragraphs": literal_eval}
     )
+
     if len(df) <= 10:
         print(f"[File {file_index}] Not enough articles to summarize (found {len(df)}). Skipping.")
         continue
