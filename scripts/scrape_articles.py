@@ -7,7 +7,12 @@ import re
 import pandas as pd
 import time
 from ast import literal_eval
-from selenium.common.exceptions import TimeoutException, NoSuchElementException, StaleElementReferenceException
+from selenium.common.exceptions import (
+    TimeoutException,
+    NoSuchElementException,
+    StaleElementReferenceException,
+    WebDriverException
+)
 
 def scrape_links_from_script(url):
     opts = FirefoxOptions()
@@ -37,13 +42,15 @@ def scrape_links_from_script(url):
     return list(set(urls))
 
 def extract_text_single_article(url, driver, articles, topic, photo):
+    # 1) Try to load the page, skip on any load errors
     try:
         driver.set_page_load_timeout(20)
         driver.get(url)
-    except TimeoutException:
-        driver.execute_script("window.stop()")
-        print(f"Timeout loading {url}")
+    except (TimeoutException, WebDriverException) as e:
+        print(f"Error loading {url}: {e}")
+        return
 
+    # 2) Wait for at least one <p>
     try:
         wait = WebDriverWait(driver, 5)
         wait.until(EC.presence_of_element_located((By.TAG_NAME, "p")))
@@ -51,10 +58,11 @@ def extract_text_single_article(url, driver, articles, topic, photo):
         driver.execute_script("window.stop()")
         print(f"No <p> on {url}")
 
+    # 3) Extract title
     title_elems = driver.find_elements(By.TAG_NAME, "h1")
     title = title_elems[0].text if title_elems else "No title found"
 
-    # Safely gather paragraphs, skipping any stale elements
+    # 4) Safely gather paragraphs
     paras = driver.find_elements(By.TAG_NAME, "p")
     paragraph_list = []
     for p in paras:
@@ -63,6 +71,7 @@ def extract_text_single_article(url, driver, articles, topic, photo):
         except StaleElementReferenceException:
             continue
 
+    # 5) Append to articles
     articles['Title'].append(title)
     articles['Link'].append(url)
     articles['Paragraphs'].append(paragraph_list)
