@@ -1,5 +1,8 @@
 name: Daily run_all.py
 
+permissions:
+  contents: write
+
 on:
   schedule:
     # Runs every day at 2:30 AM Pacific (09:30 UTC)
