@@ -7,7 +7,7 @@ import re
 import pandas as pd
 import time
 from ast import literal_eval
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from selenium.common.exceptions import TimeoutException, NoSuchElementException, StaleElementReferenceException
 
 def scrape_links_from_script(url):
     opts = FirefoxOptions()
@@ -54,18 +54,26 @@ def extract_text_single_article(url, driver, articles, topic, photo):
     title_elems = driver.find_elements(By.TAG_NAME, "h1")
     title = title_elems[0].text if title_elems else "No title found"
 
+    # Safely gather paragraphs, skipping any stale elements
     paras = driver.find_elements(By.TAG_NAME, "p")
+    paragraph_list = []
+    for p in paras:
+        try:
+            paragraph_list.append(p.text)
+        except StaleElementReferenceException:
+            continue
+
     articles['Title'].append(title)
     articles['Link'].append(url)
-    articles['Paragraphs'].append([p.text for p in paras])
+    articles['Paragraphs'].append(paragraph_list)
     articles['Topic'].append(topic)
     articles['Image'].append(photo)
 
     print(f"Extracted: {title}")
 
 def extract_text_for_topic(urls, topic, photo, index):
-    # launch a fresh headless driver for this batch
-    opts = FirefoxOptions(); opts.headless = True
+    opts = FirefoxOptions()
+    opts.headless = True
     driver = webdriver.Firefox(options=opts)
     driver.set_page_load_timeout(30)
 
@@ -84,7 +92,10 @@ def extract_text_for_topic(urls, topic, photo, index):
 if __name__ == "__main__":
     topics = ['U.S.', 'World', 'Business', 'Technology',
               'Entertainment', 'Sports', 'Science', 'Health']
-    todays = pd.read_csv('data/featured_content_links.csv', converters={t: literal_eval for t in topics})
+    todays = pd.read_csv(
+        'data/featured_content_links.csv',
+        converters={t: literal_eval for t in topics}
+    )
 
     w = 1
     for topic in topics:
