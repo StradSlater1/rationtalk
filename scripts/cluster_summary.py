@@ -13,10 +13,18 @@ from collections import defaultdict
 from dotenv import load_dotenv
 import os
 
-# Look for a .env file in your project root and load it
-load_dotenv()
+dotenv_path = os.path.abspath(
+    os.path.join(
+        os.path.dirname(__file__),  # path to the current script's folder (scripts/)
+        "..",                        # go up one level, into the repo root
+        ".env"                       # the filename of your env file
+    )
+)
 
-# Now you can read the key from the environment
+# 2) Load environment variables from that file
+load_dotenv(dotenv_path)
+
+# 3) Now you can grab your key
 API_KEY_OPEN_AI = os.getenv("OPENAI_API_KEY")
 
 # Make sure you have NLTK’s punkt tokenizer downloaded:
