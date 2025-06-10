@@ -9,42 +9,15 @@ import time
 from ast import literal_eval
 from selenium.common.exceptions import (
     TimeoutException,
-    WebDriverException,
-    StaleElementReferenceException
+    StaleElementReferenceException,
+    WebDriverException
 )
 
-def get_driver():
-    opts = FirefoxOptions()
-    opts.headless = True
+def scrape_links_from_script(url):
+    opts = FirefoxOptions(); opts.headless = True
     driver = webdriver.Firefox(options=opts)
     driver.set_page_load_timeout(20)
-    return driver
 
-def safe_load(url, driver):
-    """Try loading url on driver; on fatal failure, restart driver once."""
-    try:
-        driver.get(url)
-        return driver
-    except (WebDriverException, TimeoutException) as e:
-        print(f"Page-load error on {url}: {e}. Restarting driver and retrying…")
-        try:
-            driver.quit()
-        except:
-            pass
-        new_driver = get_driver()
-        try:
-            new_driver.get(url)
-            return new_driver
-        except Exception as e2:
-            print(f"Retry failed on {url}: {e2}. Skipping.")
-            try:
-                new_driver.quit()
-            except:
-                pass
-            return None
-
-def scrape_links_from_script(url):
-    driver = get_driver()
     urls = []
     try:
         driver.get(url)
@@ -54,21 +27,31 @@ def scrape_links_from_script(url):
         pat = re.compile(r'(https?://\S+)')
         for s in scripts:
             for u in pat.findall(s.get_attribute('innerHTML')):
-                cleaned = u.rstrip('\'"<>.,);')
-                if cleaned.startswith("https://www"):
-                    urls.append(cleaned.split('"')[0])
+                u2 = u.rstrip('\'"<>.,);')
+                if u2.startswith("https://www"):
+                    urls.append(u2.split('"')[0])
     except Exception as e:
         print(f"Error scraping links from {url}: {e}")
     finally:
         driver.quit()
+
     return list(set(urls))
 
-def extract_text_single_article(url, driver, articles, topic, photo):
-    driver = safe_load(url, driver)
-    if not driver:
-        return driver  # skip this URL but keep driver state
 
-    # wait for paragraph presence
+def extract_text_single_article(url, topic, photo, index):
+    opts = FirefoxOptions(); opts.headless = True
+    driver = webdriver.Firefox(options=opts)
+    driver.set_page_load_timeout(20)
+
+    article = {'Title': [], 'Link': [], 'Paragraphs': [], 'Topic': [], 'Image': []}
+
+    try:
+        driver.get(url)
+    except (TimeoutException, WebDriverException) as e:
+        print(f"Skipping {url} due to load error: {e}")
+        driver.quit()
+        return article
+
     try:
         WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.TAG_NAME, "p")))
     except TimeoutException:
@@ -87,35 +70,16 @@ def extract_text_single_article(url, driver, articles, topic, photo):
         except StaleElementReferenceException:
             continue
 
-    articles['Title'].append(title)
-    articles['Link'].append(url)
-    articles['Paragraphs'].append(texts)
-    articles['Topic'].append(topic)
-    articles['Image'].append(photo)
+    article['Title'].append(title)
+    article['Link'].append(url)
+    article['Paragraphs'].append(texts)
+    article['Topic'].append(topic)
+    article['Image'].append(photo)
 
     print(f"Extracted: {title}")
-    return driver
+    driver.quit()
+    return article
 
-def extract_text_for_topic(urls, topic, photo, index):
-    driver = get_driver()
-    articles = {'Title': [], 'Link': [], 'Paragraphs': [], 'Topic': [], 'Image': []}
-
-    for url in urls:
-        if "dailymail" in url:
-            continue
-        driver = extract_text_single_article(url, driver, articles, topic, photo)
-        # if driver is None, start a fresh one for next URL
-        if driver is None:
-            driver = get_driver()
-
-    try:
-        driver.quit()
-    except:
-        pass
-
-    df = pd.DataFrame(articles)
-    df.to_csv(f'data/article_data/{index}.csv', index=False)
-    print(f"Saved {len(df)} articles for {topic} to {index}.csv")
 
 if __name__ == "__main__":
     topics = ['U.S.', 'World', 'Business', 'Technology',
@@ -125,14 +89,19 @@ if __name__ == "__main__":
         converters={t: literal_eval for t in topics}
     )
 
-    counter = 1
-    for topic in topics:
+    # loop over each link individually
+    for w, topic in enumerate(topics, start=1):
         for index, url, photo in today[topic]:
             if url == "0":
                 continue
-            print(f"\nBatch [{counter}/80] topic={topic}, url={url}")
+            print(f"\n[{w}/80] topic={topic}, url={url}")
             links = scrape_links_from_script(url)
-            extract_text_for_topic(links, topic, photo, index)
-            counter += 1
+
+            # for each article URL in this batch, scrape and save
+            for art_url in links:
+                art_data = extract_text_single_article(art_url, topic, photo, index)
+                df = pd.DataFrame(art_data)
+                if not df.empty:
+                    df.to_csv(f'data/article_data/{index}.csv', mode='a', header=not pd.io.common.file_exists(f'data/article_data/{index}.csv'), index=False)
 
     print("All articles scraped and saved.")
