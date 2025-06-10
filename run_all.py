@@ -9,7 +9,7 @@ def main():
     repo_root = Path(__file__).resolve().parent
 
     # 2) Delete the TSX file from your frontend (before switching dirs)
-    tsx_path = repo_root / "src/assets/data/stories1.tsx"
+    tsx_path = repo_root / "src/assets/data/stories.tsx"
     if tsx_path.is_file():
         try:
             tsx_path.unlink()

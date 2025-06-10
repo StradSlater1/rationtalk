@@ -10,7 +10,8 @@ from ast import literal_eval
 from selenium.common.exceptions import (
     TimeoutException,
     WebDriverException,
-    StaleElementReferenceException
+    StaleElementReferenceException,
+    UnexpectedAlertPresentException
 )
 
 def get_driver():
@@ -66,13 +67,30 @@ def scrape_links_from_script(url):
 def extract_text_single_article(url, driver, articles, topic, photo):
     driver = safe_load(url, driver)
     if not driver:
-        return driver  # skip this URL but keep driver state
+        return driver
 
-    # wait for paragraph presence
+    # dismiss any unexpected alert
+    try:
+        alert = driver.switch_to.alert
+        print(f"Dismissing alert on {url}: {alert.text}")
+        alert.dismiss()
+    except UnexpectedAlertPresentException:
+        # if dismiss itself triggers, ignore
+        pass
+    except:
+        # no alert
+        pass
+
+    # wait for paragraph presence, catch alert as well
     try:
         WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.TAG_NAME, "p")))
-    except TimeoutException:
-        print(f"No <p> on {url}")
+    except (TimeoutException, UnexpectedAlertPresentException) as e:
+        print(f"No <p> on {url}: {e}")
+        # attempt to dismiss any lingering alert
+        try:
+            driver.switch_to.alert.dismiss()
+        except:
+            pass
 
     # title (safely handle stale references)
     title = "No title found"
@@ -82,7 +100,6 @@ def extract_text_single_article(url, driver, articles, topic, photo):
             try:
                 title = titles[0].text
             except StaleElementReferenceException:
-                # retry once
                 fresh = driver.find_elements(By.TAG_NAME, "h1")
                 if fresh:
                     title = fresh[0].text
@@ -115,7 +132,6 @@ def extract_text_for_topic(urls, topic, photo, index):
         if "dailymail" in url:
             continue
         driver = extract_text_single_article(url, driver, articles, topic, photo)
-        # if driver died, start new one
         if driver is None:
             driver = get_driver()
 
