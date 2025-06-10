@@ -13,6 +13,9 @@ from collections import defaultdict
 from dotenv import load_dotenv
 import os
 
+nltk.download('punkt')
+nltk.download('punkt_tab')
+
 dotenv_path = os.path.abspath(
     os.path.join(
         os.path.dirname(__file__),  # path to the current script's folder (scripts/)
@@ -43,7 +46,7 @@ sum_ques = {
 # Load the SBERT model once:
 sbert_model = SentenceTransformer('all-MiniLM-L6-v2')
 
-for file_index in range(0, 80):  # adjust upper bound to your total file count
+for file_index in range(0, 2):  # adjust upper bound to your total file count
     #
     # 1) Read & clean articles from CSV
     #
